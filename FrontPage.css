@@ -1,0 +1,11 @@
+header{
+    padding: 10px;
+    background-color: burlywood;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#Alinhamento{
+    display: block;
+    margin-left: 90px;
+}
