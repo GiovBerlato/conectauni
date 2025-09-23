@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 header {
     height: 60px; /* Set your desired header height */
     padding: 1rem;
