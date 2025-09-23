@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="utf=8">
+    <meta charset="utf-8">
     <title>Pagina Principal</title>
     <link href="FrontPage.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="Imagem_FrontPage/R.png">
-
+    <link rel="icon" type="image/png" href="Imagem_FrontPage/Icone_site.png">
   </head>
-     <header>
-      <div style="display: flex; align-items: center">
-        <img src="Imagem_FrontPage/baixados.png" alt="Logo da faculdade" width="70px" height="70px" id="Alinhamento">  
-        <p style="margin-right: 10px; margin-bottom: 20px; margin-left: 20px; font-family:Georgia, 'Times New Roman', Times, serif; text-align: center;">
-         Universidade<br>
-        <span style="font-size: smaller;">Universidade</span></p>
-       <p style="margin-left: 1200px">Opa</p>
-        </div>
-     </header>
-
-
+  <body>
+    <header>
+      <img src="Imagem_FrontPage/Imagem-Logo.png" alt="Logo da faculdade" id="Alinhamento">
+      <p style="font-family:Georgia, 'Times New Roman', Times, serif; text-align: center; color: white; font-size:2vw; margin: 0; margin-left: 10px;">
+        Uninews
+      </p>
+      <nav class="header-nav Fonte-padrão">
+        <a style="margin-right: 2vw;">Pagina Principal</a>
+        <a style="margin-right: 2vw;">Pesquisas</a>
+        <a style="margin-right: 2vw;">Esportes</a>
+        <a style="margin-right: 2vw;">Bolsas</a>
+      </nav>
+    </header>
+    <div class="container-img-faculdade">
+      <img src="Imagem_FrontPage/Imagem-Universidade.png" alt="Imagem de uma faculdade" style="width: 100%; height: 75vh;">
+      <div class="img-texto-centralizado">
+        Uninews
+        <p style="margin-top:10px; font-size:2vw;">Seu site de noticias universitárias</p>
+      </div>
+      <div id="caixa_de_texto_imagem">
+        <strong>
+          <a style="display: inline-block; border: 1px solid white; padding: 4px; border-radius: 3px;">Notícias em alta</a>
+        </strong>
+        <img src="Imagem_FrontPage/Icone_research.png" id="Icon1" width="20" style="display: inline-block; border: 2px solid #f8f8f8; vertical-align: middle; border-radius: 3px;">
+        <a class="Fonte_Breaking_News"> Pesquisas - Cura para o câncer está cada vez mais próxima </a>
+        <img src="Imagem_FrontPage/Icone_sports.png" id="Icon1" width="20" style="display: inline-block; border: 2px solid #f8f8f8; vertical-align: middle; border-radius: 3px; margin-left: 1vw;">
+        <a class="Fonte_Breaking_News"> Esportes - Atleta universitário conquista medalha de ouro </a>
+        <img src="Imagem_FrontPage/Icone_bolsas.png" id="Icon1" width="20" style="display: inline-block; border: 2px solid #f8f8f8; vertical-align: middle; border-radius: 3px; margin-left: 1vw;">
+        <a class="Fonte_Breaking_News"> Bolsas - Novas oportunidades de bolsas de estudo anunciadas </a>
+      </div>
+    </div>
+  </body>
 </html>
