@@ -3,25 +3,24 @@ body {
 }
 
 header {
-    height: 60px; /* Set your desired header height */
+    height: auto; /* Set your desired header height */
     padding: 1rem;
     background-color: rgb(110, 85, 51);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
 #Alinhamento {
-    display: block;
-    margin-left: 2vw;
     max-width: 60px;
     width: 20vw;
     height: auto;
     border: 2px solid hsl(35, 21%, 11%);
     border-radius: 10px;
+    gap: 2vw;
 }
 
 .Fonte-padrão {
@@ -29,11 +28,23 @@ header {
     color: white;
 }
 
+.header-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+    gap: 10px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2vw;
+}
+
 .header-nav {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 2vw;
-    margin-left: auto;
+    margin-top: 2vw;
 }
 
 .container-img-faculdade {
