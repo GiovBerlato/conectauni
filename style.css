@@ -4,8 +4,8 @@ body {
 
 header {
     height: auto; /* Set your desired header height */
-    padding: 1rem;
-    background-color: rgb(110, 85, 51);
+    padding: 1vw;
+    background-color: rgb(82, 46, 18);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     display: block;
@@ -14,18 +14,15 @@ header {
     justify-content: space-between;
 }
 
+a {
+    text-decoration: none;
+}
+
 #Alinhamento {
     max-width: 60px;
     width: 20vw;
     height: auto;
-    border: 2px solid hsl(35, 21%, 11%);
-    border-radius: 10px;
     gap: 2vw;
-}
-
-.Fonte-padrão {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
 }
 
 .header-titulo {
@@ -35,11 +32,16 @@ header {
     margin-top: 1vw;
     gap: 10px;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 2vw;
 }
 
 .header-nav {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
