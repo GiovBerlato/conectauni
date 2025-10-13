@@ -9,7 +9,7 @@ header {
     display: block;
     height: auto; /* Altura automática, pode ser ajustada */
     padding: 1vw;
-    background-color: rgb(82, 46, 18);
+    background-color: lch(22.97% 28.06 60.57);
     border-radius: 10px;
     align-content: center;
     position: relative;
@@ -364,5 +364,108 @@ img {
     .menu-off-screen {
         width: 60%;
         max-width: none;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 40px 0;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #3498db;
+}
+
+.noticias-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.card-noticia {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-noticia:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.card-imagem {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-titulo {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.card-descricao {
+    color: #5d6d7e;
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+}
+
+.card-link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.card-link:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+    .noticias-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .noticias-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .main-title {
+        font-size: 2.5rem;
+        margin: 30px 0;
     }
 }
