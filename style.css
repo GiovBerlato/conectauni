@@ -2,12 +2,16 @@
 body {
     background-color: rgb(207, 201, 194);
     margin: 0.3vw;
+    font-family: 'Lato', sans-serif;
+    background-color: #f8f9fa;
+    line-height: 1.6;
 }
 
 /* Estilização do cabeçalho */
 header {
     display: block;
     height: auto; /* Altura automática, pode ser ajustada */
+    min-height: 70px;
     padding: 1vw;
     background-color: lch(22.97% 28.06 60.57);
     border-radius: 10px;
@@ -27,14 +31,15 @@ ul {
 
 /* Logo do cabeçalho */
 #Alinhamento {
-    max-width: 60px;
-    width: 20vw;
+    position: relative;
+    width: clamp(45px, 6vw, 5rem);
+    max-width: 100%;
     height: auto;
-    gap: 2vw;
 }
 
 /* Título do cabeçalho centralizado */
 .header-titulo {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +50,7 @@ ul {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: clamp(2vw, 4vw, 1.5rem);
+    font-size: clamp(30px, 4vw, 3rem);
 }
 
 /* Navegação do cabeçalho */
@@ -64,7 +69,7 @@ ul {
 
 /* Menu sanduíche responsivo */
 .nav-menu-sanduiche {
-    padding: 1rem;
+    padding: 0.5rem;
     display: flex;
     position: absolute;
     top: 0.6rem;             
@@ -74,15 +79,15 @@ ul {
 
 /* Ícone do menu sanduíche */
 .menu-sanduiche {
-    height: 50px;
-    width: 50px;
+    height: 2.5rem;
+    width: 2.5rem;
     margin-right: auto;
     position: relative;
 }
 
 /* Barras do menu sanduíche */
 .menu-sanduiche span {
-    height: 5px;
+    height: 0.25rem;
     width: 100%;
     background-color: white;
     border-radius: 25px;
@@ -117,7 +122,6 @@ ul {
 /* Menu lateral off-screen */
 .menu-off-screen.active {
     left: 0;
-    top: 4.5vw;
 }
 .menu-off-screen {
     color: white;
@@ -126,8 +130,9 @@ ul {
     border-bottom-right-radius: 10px;
     width: 15%;
     max-width: 450px;
+    min-width: 200px;
     position: fixed;
-    top: 4vw;
+    top: 70px;
     left: -450px;
     display: flex;
     flex-direction: column;
@@ -137,9 +142,11 @@ ul {
 
 /* Itens do menu lateral */
 .menu-off-screen ul li{
-    margin-left: 20px;
+    
     font-size: 115%;
     font-family: "Lato", sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 7px;
     margin-bottom: 7px;
 }
@@ -158,13 +165,14 @@ ul {
 }
 #menu-off-screen-header p {
     font-family: Montserrat, sans-serif; 
-    font-weight: 800; 
-    font-size: clamp(2vw, 4vw, 1.5rem);
+    font-weight: 600; 
+    font-size: clamp(25px, 1.8rem, 2rem);
     position: relative;
     top: 6px;
 }
 #menu-off-screen-header img {
-    width: 25%; 
+    width: 25%;
+    min-width: 50px;
     margin-top: 7%; 
     margin-left: 5%;
 }
@@ -342,43 +350,6 @@ img {
     width: 100%;
 }
 
-/* Responsividade para telas menores */
-@media (max-width: 900px) {
-    .img-texto-centralizado {
-        font-size: 5vw;
-    }
-    #caixa_de_texto_imagem {
-        font-size: 2vw;
-        width: 90vw;
-        left: 1vw;
-        padding: 0.5rem;
-    }
-    .header-nav {
-        gap: 1vw;
-    }
-    #Alinhamento {
-        width: 12vw;
-        max-width: 40px;
-    }
-    .header-nav {
-        display: none;
-    }
-    .nav-menu-sanduiche {
-        display: flex; 
-    }
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
-    line-height: 1.6;
-}
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -480,6 +451,47 @@ body {
         grid-template-columns: repeat(2, 1fr);
         gap: 25px;
     }
+
+    .menu-off-screen {
+        top: 70px;
+        width: 20vw;
+    }
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 900px) {
+    .img-texto-centralizado {
+        font-size: 5vw;
+    }
+    #caixa_de_texto_imagem {
+        font-size: 2vw;
+        width: 90vw;
+        left: 1vw;
+        padding: 0.5rem;
+    }
+    .header-nav {
+        gap: 1vw;
+    }
+    #Alinhamento {
+        min-width: 5vw;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .menu-off-screen {
+        top: 70px;
+    }
+
+    #menu-off-screen-header img {
+        width: 20%;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
