@@ -137,12 +137,17 @@ ul {
 
 /* Itens do menu lateral */
 .menu-off-screen ul li{
-    margin-left: -20px;
+    margin-left: 20px;
     font-size: 115%;
     font-family: "Lato", sans-serif;
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
-.menu-off-screen ul li:not(:last-child) {
-    margin-bottom: 5%;
+.menu-off-screen ul li:first-child {
+    margin-top: 14px;
+}
+.menu-off-screen ul li:last-child {
+    margin-bottom: 14px;
 }
 
 /* Cabeçalho do menu lateral */
@@ -361,10 +366,6 @@ img {
     .nav-menu-sanduiche {
         display: flex; 
     }
-    .menu-off-screen {
-        width: 60%;
-        max-width: none;
-    }
 }
 * {
     margin: 0;
@@ -451,7 +452,7 @@ body {
     text-decoration: underline;
 }
 
-#Rodape {
+#rodape-placeholder {
     background-color: #8b6650;
     color: white;
     border: 2px solid black;

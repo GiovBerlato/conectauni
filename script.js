@@ -22,3 +22,9 @@ fetch('header.html')
     menuOffScreen.classList.toggle('active');
 });
 });
+
+fetch('rodape.html')
+.then(response => response.text())
+.then(data => {
+    document.getElementById('rodape-placeholder').innerHTML = data;
+})
