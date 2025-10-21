@@ -275,7 +275,6 @@ img {
 /* Imagens das notícias lado a lado */
 .img-esquerda {
     width: 100%;
-    height: 10vw;
     object-fit: cover;
     display: block;
     margin-top: 0.3vw;
@@ -283,7 +282,6 @@ img {
 }
 .img-direita {
     width: 100%;
-    height: 10vw;
     object-fit: cover;
     display: block;
     margin-top: 0.3vw;
@@ -300,7 +298,8 @@ img {
 /* Remover margem das imagens lado a lado */
 .img-esquerda,
 .img-direita {
-    margin-left: 0;          
+    margin-left: 0;
+    height: 13vw;         
 }
 
 /* Legenda das imagens */
@@ -457,6 +456,23 @@ img {
     .menu-off-screen {
         top: 70px;
         width: 20vw;
+    }
+
+    .imagem-com-texto {
+        width: 40vw; /* Aumenta a largura do card de 25vw para 40vw */
+    }
+
+    .img-esquerda,
+    .img-direita {
+        height: 22vw; /* Aumenta a altura da imagem para ser proporcional */
+    }
+
+    .legenda-imagem {
+        font-size: 26px; /* Reduz um pouco o título para caber melhor */
+    }
+
+    .legenda-imagem2 {
+        font-size: 14px; /* Reduz um pouco o resumo para caber melhor */
     }
 }
 
