@@ -424,6 +424,28 @@ img {
     text-decoration: underline;
 }
 
+#data_noticia {
+    text-align: center;
+    font-size: 15px;
+    max-width: 1200px;
+    margin: 1px auto 0 auto;
+    word-break: break-all;;
+    overflow-wrap: break-word;
+    color: grey;
+    margin-right: 34.5vw;
+    margin-bottom: 20px;
+}
+
+#titulo-limitado {
+    text-align: center;
+    font-size: 50px;
+    max-width: 1200px;
+    margin: 20px auto 0 auto;
+    word-break: break-all;;
+    overflow-wrap: break-word;
+    color: rgb(0, 0, 0);
+}
+
 #rodape-placeholder {
     background-color: #8b6650;
     color: white;
