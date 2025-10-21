@@ -56,7 +56,31 @@ const dados_noticias = [
     },
     {
         id: 4, 
-        titulo: "Placeholder", 
+        titulo: "NOTICIA", 
+        autor: "John Doe", 
+        data: "October 12, 2025", 
+        imagem: "Imagem_FrontPage/Imagem-teste.jpg", 
+        audio: "", 
+        resumo: "PLACEHOLDER", 
+        conteudo: "", 
+        categoria: "", 
+        link: "" 
+    },
+    {
+        id: 5, 
+        titulo: "NOTICIA", 
+        autor: "John Doe", 
+        data: "October 12, 2025", 
+        imagem: "Imagem_FrontPage/Imagem-teste.jpg", 
+        audio: "", 
+        resumo: "PLACEHOLDER", 
+        conteudo: "", 
+        categoria: "", 
+        link: "" 
+    },
+    {
+        id: 6, 
+        titulo: "NOTICIA", 
         autor: "John Doe", 
         data: "October 12, 2025", 
         imagem: "Imagem_FrontPage/Imagem-teste.jpg", 
