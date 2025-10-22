@@ -17,7 +17,7 @@ header {
     height: auto; /* Altura automática, pode ser ajustada */
     min-height: 70px;
     padding: 1vw;
-    background-color: lch(22.97% 28.06 60.57);
+    background-color: #522e12;
     border-radius: 10px;
     align-content: center;
     position: relative;
@@ -457,13 +457,13 @@ img {
 }
 
 #rodape-placeholder {
-    background-color: #8b6650;
+    background-color: #522e12;
+    border-radius: 10px;
     color: white;
-    border: 2px solid black;
     text-align: center;
     width: 100%;
     height: 100%;
-    padding: 15px;
+    padding: 1vw;
     font-size: 0.9rem;
     margin-top: 40px;
     position: relative;

@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
         function criarCardHTMLFrontPage(noticia, imgClass = 'img-esquerda') {
 
             return `
-                <a href="${noticia.link}" class="imagem-com-texto">
+                <a href="templateNoticia.html?id=${noticia.id}" class="imagem-com-texto">
                     <img src="${noticia.imagem}" alt="${noticia.titulo}" class="${imgClass}">
                     <p class="legenda-imagem">${noticia.titulo}</p>
                     <p class="legenda-imagem2">${noticia.resumo}</p>
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="card-content">
                     <h2 class="card-titulo">${noticia.titulo}</h2>
                     <p class="card-descricao">${noticia.resumo}</p>
-                    <a href="${noticia.link}" class="card-link">Leia mais</a>
+                    <a href="templateNoticia.html?id=${noticia.id}" class="card-link">Leia mais</a>
                 </div>
             </article>
         `

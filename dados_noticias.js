@@ -15,8 +15,7 @@ const dados_noticias = [
         audio: "", // caminho até o áudio da noticia (exemplo: "audio-noticias/audio.mp3")
         resumo: "", // resumo da notícia (o texto introdutório que aparece no card que leva ao site da notícia)
         conteudo: "", // texto completo da noticia
-        categoria: "", // categorias disponiveis até agora: geral, esportes ou bolsas
-        link: "" // link para a página HTML da página
+        categoria: "" // categorias disponiveis até agora: geral, esportes ou bolsas
     },
     {
         id: 1, 
@@ -27,8 +26,7 @@ const dados_noticias = [
         audio: "", 
         resumo: "Conhecido por todos como \"Barnabé\", o cãozinho que apareceu no campus há dois anos agora tem uma casinha customizada e participa de eventos para aliviar o estresse dos estudantes em época de provas.", 
         conteudo: "", 
-        categoria: "", 
-        link: "barnabé.html" 
+        categoria: ""
     },
     {
         id: 2, 
@@ -39,8 +37,7 @@ const dados_noticias = [
         audio: "", 
         resumo: "A Universidade Federal do Planalto (UFP) é a grande campeã da Superliga Universitária de Voleibol. Em uma final eletrizante decidida no tie-break, a equipe das \"Leoas da Serra\" superou as rivais da UMEC por 3 sets a 2, conquistando o título inédito para a instituição.", 
         conteudo: "", 
-        categoria: "", 
-        link: "volei.html"
+        categoria: ""
     },
     {
         id: 3, 
@@ -51,8 +48,7 @@ const dados_noticias = [
         audio: "", 
         resumo: "A equipe \"Dragões da Ânima\", da Universidade Ânima do Sul (UNISUL), é a nova campeã do Torneio Brasileiro de Gamers Universitários (TBGU). O título de League of Legends veio após uma virada espetacular por 3 a 2 sobre os Titãs do Sertão na grande final.", 
         conteudo: "", 
-        categoria: "", 
-        link: "esports.html" 
+        categoria: ""
     },
     {
         id: 4, 
@@ -75,8 +71,7 @@ const dados_noticias = [
         audio: "", 
         resumo: "PLACEHOLDER", 
         conteudo: "", 
-        categoria: "", 
-        link: "" 
+        categoria: ""
     },
     {
         id: 6, 
@@ -87,7 +82,6 @@ const dados_noticias = [
         audio: "", 
         resumo: "PLACEHOLDER", 
         conteudo: "", 
-        categoria: "", 
-        link: "" 
+        categoria: ""
     }
 ]
