@@ -384,6 +384,8 @@ img {
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-noticia:hover {
@@ -400,6 +402,9 @@ img {
 
 .card-content {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .card-titulo {
@@ -421,6 +426,7 @@ img {
     text-decoration: none;
     font-weight: bold;
     font-size: 0.9rem;
+    margin-top: auto;
 }
 
 .card-link:hover {
