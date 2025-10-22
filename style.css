@@ -1,10 +1,14 @@
 /* Cor de fundo do site e margem geral */
 body {
-    background-color: rgb(207, 201, 194);
+    background: #cfc9c2;
+    background-color: #cfc9c2;
     margin: 0.3vw;
     font-family: 'Lato', sans-serif;
-    background-color: #f8f9fa;
     line-height: 1.6;
+}
+
+header, footer {
+    visibility: hidden;
 }
 
 /* Estilização do cabeçalho */
