@@ -4,6 +4,15 @@
     <title>Bolsas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
+    <script>
+  (function(){
+    try {
+      var t = localStorage.getItem('site-theme'); // 'dark' ou 'light'
+      if (t === 'dark') document.documentElement.setAttribute('data-theme','dark');
+      else document.documentElement.removeAttribute('data-theme');
+    } catch(e) {}
+  })();
+</script>
     <link href="style.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="Imagem_FrontPage/Icone_site.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">

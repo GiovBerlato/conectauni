@@ -1,4 +1,6 @@
 /* Cor de fundo do site e margem geral */
+
+
 body {
     background: #cfc9c2;
     background-color: #cfc9c2;
@@ -431,7 +433,7 @@ img {
 }
 
 .card-link:hover {
-    color: #2980b9;
+    color: #2b7abf;
     text-decoration: underline;
 }
 
@@ -582,4 +584,58 @@ img {
         font-size: 16px;
         min-height: 0;
     }
+}
+
+/* ===========================
+   Tema escuro (aplica apenas quando <html data-theme="dark">)
+   Adicione este bloco APENAS no final do style.css (append)
+   =========================== */
+
+html[data-theme="dark"] body {
+  background: #0b0d10;
+  color: #e6eef6;
+}
+
+/* Header escuro (mantém gradiente escuro) */
+html[data-theme="dark"] header {
+  background: linear-gradient(to bottom, #1a1c20, #272b32);
+  color: #e6eef6;
+}
+
+/* Menu off-screen em modo escuro */
+html[data-theme="dark"] .menu-off-screen {
+  background-color: #1e1f21;
+  color: #e6eef6;
+}
+
+/* Cards — superfícies escuras */
+html[data-theme="dark"] .card-noticia,
+html[data-theme="dark"] .card,
+html[data-theme="dark"] .box {
+  background: #14161a;
+  color: #e6eef6;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+}
+
+/* Textos secundários no escuro */
+html[data-theme="dark"] .card-descricao,
+html[data-theme="dark"] .legenda-imagem2,
+html[data-theme="dark"] #data_noticia {
+  color: #9aa6b2;
+}
+
+/* Rodapé escuro */
+html[data-theme="dark"] #rodape-placeholder {
+  background: linear-gradient(to bottom, #1a1c20, #272b32);
+  color: #e6eef6;
+}
+
+/* Linha rotacionada */
+html[data-theme="dark"] #rotacionado {
+  background-color: #e6eef6;
+}
+
+/* Links de card: mantemos azul adaptado para escuro */
+html[data-theme="dark"] .card-link {
+  color: #54a0ff;
 }
