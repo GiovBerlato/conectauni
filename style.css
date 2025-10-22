@@ -17,7 +17,8 @@ header {
     height: auto; /* Altura automática, pode ser ajustada */
     min-height: 70px;
     padding: 1vw;
-    background-color: #522e12;
+    background: linear-gradient(to bottom, rgb(134, 102, 42), rgb(163, 106, 40));
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     align-content: center;
     position: relative;
@@ -457,7 +458,8 @@ img {
 }
 
 #rodape-placeholder {
-    background-color: #522e12;
+    background: linear-gradient(to bottom, rgb(134, 102, 42), rgb(163, 106, 40));
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     color: white;
     text-align: center;
