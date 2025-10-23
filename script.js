@@ -1,5 +1,4 @@
 // script.js - versão segura para modo escuro + load do header/rodape
-// Substitua TODO o conteúdo do seu script.js por este bloco (faça backup antes)
 
 (function () {
   const THEME_KEY = 'site-theme';
@@ -160,18 +159,12 @@
      Inicialização principal (após DOM pronto)
      ========================= */
   document.addEventListener('DOMContentLoaded', function () {
-    // 1) Primeiro, aplica o tema salvo (inline script já tentou isso, mas garantimos sincronia)
     const saved = getSavedTheme();
     if (saved === 'dark') applyTheme('dark');
     else if (saved === 'light') applyTheme('light');
-    // NOTE: se saved for null, não forçamos nada — inline script manteve claro por padrão.
 
-    // 2) Carrega header e footer (e inicializa toggle ao final da injeção)
     loadHeaderAndFooter();
 
-    // 3) Caso você tenha páginas sem header injetado, garante setup do toggle também
-    // (setupThemeToggleAfterHeader vai criar fallback button se necessário)
-    // chamamos com leve timeout para permitir que, se o header já estiver no HTML, tudo funcione.
     setTimeout(() => {
       setupThemeToggleAfterHeader();
       setupMenuSanduiche();
