@@ -25,7 +25,20 @@ const dados_noticias = [
         imagem: "imagem-noticias/barnabé.png", 
         audio: "", 
         resumo: "Conhecido por todos como \"Barnabé\", o cãozinho que apareceu no campus há dois anos agora tem uma casinha customizada e participa de eventos para aliviar o estresse dos estudantes em época de provas.", 
-        conteudo: "", 
+        conteudo: `O mascote Barnabé conquistou rapidamente a comunidade
+acadêmica, incluindo alunos como Ana Clara Fonseca, 20 anos, e Rafael Martins,
+21 anos, que destacaram a presença do cão como fonte de alegria e alívio do
+estresse diário.<br>
+Segundo os estudantes, a ideia surgiu para promover momentos
+de descontração e interação entre os alunos. “Barnabé está sempre presente nos
+corredores e áreas de convivência, trazendo leveza e carinho para todos. Ele se
+tornou um verdadeiro coordenador do bem-estar emocional do campus”, explicou
+Ana Clara.<br>
+A universidade apoiou a iniciativa, autorizando a instalação
+de uma pequena casinha para Barnabé em área segura do campus e fornecendo um
+crachá simbólico para identificação do mascote. A medida ganhou destaque nas
+redes sociais da instituição, recebendo elogios da comunidade acadêmica e da
+imprensa local.`,
         categoria: ""
     },
     {
@@ -55,7 +68,7 @@ const dados_noticias = [
         titulo: "NOTICIA", 
         autor: "John Doe", 
         data: "October 12, 2025", 
-        imagem: "Imagem_FrontPage/Imagem-teste.jpg", 
+        imagem: "imagem-noticias/autismo.png", 
         audio: "", 
         resumo: "PLACEHOLDER", 
         conteudo: "", 
@@ -67,7 +80,7 @@ const dados_noticias = [
         titulo: "NOTICIA", 
         autor: "John Doe", 
         data: "October 12, 2025", 
-        imagem: "Imagem_FrontPage/Imagem-teste.jpg", 
+        imagem: "imagem-noticias/concursodebolsa.png", 
         audio: "", 
         resumo: "PLACEHOLDER", 
         conteudo: "", 
@@ -78,10 +91,181 @@ const dados_noticias = [
         titulo: "NOTICIA", 
         autor: "John Doe", 
         data: "October 12, 2025", 
-        imagem: "Imagem_FrontPage/Imagem-teste.jpg", 
+        imagem: "Imagem-noticias/deficiente.png", 
         audio: "", 
         resumo: "PLACEHOLDER", 
         conteudo: "", 
         categoria: ""
-    }
+    },
+      {
+        id: 7, 
+        titulo: "NOTICIA", 
+        autor: "John Doe", 
+        data: "October 12, 2025", 
+        imagem: "Imagem-noticias/feira.png", 
+        audio: "", 
+        resumo: "PLACEHOLDER", 
+        conteudo: "", 
+        categoria: ""
+    },
+      {
+        id: 8, 
+        titulo: "NOTICIA", 
+        autor: "John Doe", 
+        data: "October 12, 2025", 
+        imagem: "Imagem-noticias/formatura.png", 
+        audio: "", 
+        resumo: "PLACEHOLDER", 
+        conteudo: "", 
+        categoria: ""
+    },
+    {
+        id: 9, 
+        titulo: "NOTICIA", 
+        autor: "John Doe", 
+        data: "October 12, 2025", 
+        imagem: "Imagem-noticias/futebol.png", 
+        audio: "", 
+        resumo: "PLACEHOLDER", 
+        conteudo: "", 
+        categoria: ""
+    },
+    {
+        id: 10, 
+        titulo: "NOTICIA", 
+        autor: "John Doe", 
+        data: "October 12, 2025", 
+        imagem: "Imagem-noticias/grupopagode.png", 
+        audio: "", 
+        resumo: "PLACEHOLDER", 
+        conteudo: "", 
+        categoria: ""
+    },
+    {
+        id: 11, 
+        titulo: "NOTICIA", 
+        autor: "John Doe", 
+        data: "October 12, 2025", 
+        imagem: "Imagem-noticias/horta.png", 
+        audio: "", 
+        resumo: "PLACEHOLDER", 
+        conteudo: "", 
+        categoria: ""
+    },
+    {
+        id: 12, 
+        titulo: "NOTICIA", 
+        autor: "John Doe", 
+        data: "October 12, 2025", 
+        imagem: "Imagem-noticias/intercambio.png", 
+        audio: "", 
+        resumo: "PLACEHOLDER", 
+        conteudo: "", 
+        categoria: ""
+    },
+    {
+        id: 13, 
+        titulo: "NOTICIA", 
+        autor: "John Doe", 
+        data: "October 12, 2025", 
+        imagem: "Imagem-noticias/intercambio.png", 
+        audio: "", 
+        resumo: "PLACEHOLDER", 
+        conteudo: "", 
+        categoria: ""
+    },
+    {
+        id: 14, 
+        titulo: "NOTICIA", 
+        autor: "John Doe", 
+        data: "October 12, 2025", 
+        imagem: "Imagem-noticias/intercambio.png", 
+        audio: "", 
+        resumo: "PLACEHOLDER", 
+        conteudo: "", 
+        categoria: ""
+    },
+    {
+        id: 15, 
+        titulo: "NOTICIA", 
+        autor: "John Doe", 
+        data: "October 12, 2025", 
+        imagem: "Imagem-noticias/intercambio.png", 
+        audio: "", 
+        resumo: "PLACEHOLDER", 
+        conteudo: "", 
+        categoria: ""
+    },
+     {
+        id: 16, 
+        titulo: "NOTICIA", 
+        autor: "John Doe", 
+        data: "October 12, 2025", 
+        imagem: "Imagem-noticias/intercambio.png", 
+        audio: "", 
+        resumo: "PLACEHOLDER", 
+        conteudo: "", 
+        categoria: ""
+    },
+     {
+        id: 17, 
+        titulo: "NOTICIA", 
+        autor: "John Doe", 
+        data: "October 12, 2025", 
+        imagem: "Imagem-noticias/intercambio.png", 
+        audio: "", 
+        resumo: "PLACEHOLDER", 
+        conteudo: "", 
+        categoria: ""
+    },
+     {
+        id: 18, 
+        titulo: "NOTICIA", 
+        autor: "John Doe", 
+        data: "October 12, 2025", 
+        imagem: "Imagem-noticias/intercambio.png", 
+        audio: "", 
+        resumo: "PLACEHOLDER", 
+        conteudo: "", 
+        categoria: ""
+    },
+     {
+        id: 19, 
+        titulo: "NOTICIA", 
+        autor: "John Doe", 
+        data: "October 12, 2025", 
+        imagem: "Imagem-noticias/intercambio.png", 
+        audio: "", 
+        resumo: "PLACEHOLDER", 
+        conteudo: "", 
+        categoria: ""
+    },
+     {
+        id: 20, 
+        titulo: "NOTICIA", 
+        autor: "John Doe", 
+        data: "October 12, 2025", 
+        imagem: "Imagem-noticias/intercambio.png", 
+        audio: "", 
+        resumo: "PLACEHOLDER", 
+        conteudo: "", 
+        categoria: ""
+    },
+    {
+        id: 21, 
+        titulo: "NOTICIA", 
+        autor: "John Doe", 
+        data: "October 12, 2025", 
+        imagem: "Imagem-noticias/intercambio.png", 
+        audio: "", 
+        resumo: "PLACEHOLDER", 
+        conteudo: "", 
+        categoria: ""
+    },
+    
+    
+
+
+
+
 ]

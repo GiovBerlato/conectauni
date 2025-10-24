@@ -631,3 +631,29 @@ html[data-theme="dark"] .container-introducao {
     color: #fff;
     background-color: #272b32;
 }
+.paginacao {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.pagina {
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    background: white;
+    transition: all 0.3s;
+}
+
+.pagina.ativa {
+    background: #1a3a5f;
+    color: white;
+    border-color: #1a3a5f;
+}
+
+.pagina:hover {
+    background: #f0f0f0;
+}

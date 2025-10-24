@@ -212,3 +212,40 @@
   });
 
 })();
+function mudarPagina(numero) {
+    // Remove classe ativa de todas as páginas
+    document.querySelectorAll('.pagina').forEach(pag => {
+        pag.classList.remove('ativa');
+    });
+    
+    // Adiciona classe ativa na página clicada
+    event.target.classList.add('ativa');
+    
+    // Aqui você carrega o conteúdo da página
+    console.log('Página ' + numero + ' carregada');
+}
+function mudarPagina(numeroPagina) {
+    // Remove classe ativa de todas as páginas
+    document.querySelectorAll('.pagina').forEach(pag => {
+        pag.classList.remove('ativa');
+    });
+    
+    // Adiciona classe ativa na página clicada
+    event.target.classList.add('ativa');
+    
+    // Aqui você chama a função que carrega as notícias da página
+    carregarNoticiasPagina(numeroPagina);
+}
+
+function carregarNoticiasPagina(pagina) {
+    // Exemplo - ajuste conforme seu sistema de notícias
+    const noticiasPorPagina = 6; // Quantidade de notícias por página
+    const inicio = (pagina - 1) * noticiasPorPagina;
+    const fim = inicio + noticiasPorPagina;
+    
+    // Aqui você filtra as notícias para mostrar apenas as da página atual
+    console.log(`Carregando notícias da página ${pagina}: itens ${inicio} a ${fim}`);
+    
+    // Chame sua função existente que renderiza notícias
+    // renderizarNoticias(noticiasFiltradas);
+}
