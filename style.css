@@ -184,57 +184,44 @@ ul {
     margin-left: 5%;
 }
 
-/* Container da imagem de fundo da universidade */
-.container-img-faculdade {
-    position: relative;
-    margin-top: 0.3vw;
-    display: block;
-    max-width: 100vw;
-}
-
-/* Texto centralizado sobre a imagem de fundo */
-.img-texto-centralizado {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 3vw;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    width: 90%;
-}
-
-/* Caixa de texto sobre a imagem de fundo */
-#caixa_de_texto_imagem {
+.container-introducao {
     display: flex;
-    padding: 1rem;
-    position: absolute;
-    bottom: 0.2vw;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: #f1eae2;
+    color: #000;
+    margin-top: 1.3vw;
     border-radius: 10px;
-    left: 0;
-    color: white;
-    font-size: 1.3vw;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    align-items: center;
-    align-content: center;
-    text-align: left;
-    border: 2px solid hsl(35, 21%, 11%);
-    background-color: rgba(56, 46, 34, 0.7);
 }
 
-/* Ícones das notícias em alta */
-#Icon1 {
-    margin-left: 1vw;
+.introducao-titulo {
+    width: calc(50% - 2vw);
+    padding: 1vw;
+    margin-top: 0.2vw;
+    box-sizing: border-box;
 }
 
-/* Manchetes das notícias em alta */
-.Fonte_Breaking_News {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 1vw;
-    margin-left: 0.5vw;
-    margin-bottom: 10px;
+.introducao-titulo h1 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: clamp(24px, 2.5vw, 4vw);
+}
+
+.introducao-titulo p {
+    text-align: justify;
+    font-family: Lato, sans-serif;
+    font-size: clamp(20px, 1.5vw, 3vw);
+}
+
+#introducao-img {
+    width: 50%;
+    object-fit: cover;
+    display: flex;
+    margin-left: auto;
+}
+
+#introducao-img img {
+    width: 100%;
 }
 
 /* Todas as imagens responsivas */
@@ -460,7 +447,7 @@ img {
 }
 
 #rodape-placeholder {
-    background: linear-gradient(to bottom, #522e12, #6b3c17);
+    background: linear-gradient(to top, #522e12, #6b3c17);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     color: white;
@@ -626,7 +613,7 @@ html[data-theme="dark"] #data_noticia {
 
 /* Rodapé escuro */
 html[data-theme="dark"] #rodape-placeholder {
-  background: linear-gradient(to bottom, #1a1c20, #272b32);
+  background: linear-gradient(to top, #1a1c20, #272b32);
   color: #e6eef6;
 }
 
@@ -638,4 +625,9 @@ html[data-theme="dark"] #rotacionado {
 /* Links de card: mantemos azul adaptado para escuro */
 html[data-theme="dark"] .card-link {
   color: #54a0ff;
+}
+
+html[data-theme="dark"] .container-introducao {
+    color: #fff;
+    background-color: #272b32;
 }

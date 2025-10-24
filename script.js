@@ -1,4 +1,4 @@
-// script.js - versão segura para modo escuro + load do header/rodape
+// script.js - versão segura para modo escuro, load do header/rodape e outras funcionalidades
 
 (function () {
   const THEME_KEY = 'site-theme';
@@ -169,6 +169,46 @@
       setupThemeToggleAfterHeader();
       setupMenuSanduiche();
     }, 50);
+
+    window.onload = function() {
+      var boxtitulo = document.querySelector(".introducao-titulo h1");
+      var boxintroducao = document.querySelector(".introducao-titulo p");
+      var textotitulo = "Bem vindo(a) ao Conecta Uni!";
+      var textointroducao = `
+      No Conecta Uni, você fica ligado em tudo que acontece nas grandes faculdades do Brasil!
+
+      Aqui noticiamos esportes, acontecimentos engraçados, anúncios importantes e até mesmo oportunidades de bolsas! Não perca nada, junte-se conosco e se mantenha atualizado!
+      `
+
+      if (boxtitulo && boxintroducao) {
+          if (localStorage.getItem("jaVisitou") == null) {
+            for (var i = 0, l = textotitulo.length; i < l; i++) {
+              setTimeout(function(i) {
+                  boxtitulo.textContent = textotitulo.substring(0, i + 1);
+              }.bind(this, i), i * 120);
+            }
+
+            //calcula o tempo levado para a escrita do titulo
+            var duracaoTitulo = textotitulo.length * 120;
+
+            for (var i = 0, l = textointroducao.length; i < l; i++) {
+              setTimeout(function(i) {
+                boxintroducao.textContent = textointroducao.substring(0, i+1);
+              }.bind(this, i), duracaoTitulo + (i *20)); // espera o titulo ser escrito, para depois escrever a introdução
+            }
+
+            var duracaoIntroducao = textointroducao.length * 120;
+            setTimeout(function() {
+              localStorage.setItem("jaVisitou", "true"); // a animação só deve acontecer na primeira visita ao site.
+            }, duracaoTitulo + duracaoIntroducao);
+          } else {
+            boxtitulo.textContent = textotitulo;
+            boxintroducao.textContent = textointroducao;
+          }
+      } else {
+          console.error("Elemento 'introducao-titulo' não foi encontrado.");
+      }
+    };
   });
 
 })();
