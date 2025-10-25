@@ -5,8 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     // Filtra notícias para a página 2 (IDs 13-21)
     const noticiasPagina2 = dados_noticias.filter(noticia => 
-        noticia.id !== 0 && noticia.id > 12 && noticia.id <= 21
-    );
+        noticia.id !== 0 && noticia.id > 12 && noticia.id <= 21);
 
     for (const noticia of noticiasPagina2) {
         let cardHTMLPagNoticias = `

@@ -49,44 +49,28 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // NOTICIAS DA PÁGINA noticias.html.
 
-    for (const noticia of dados_noticias) {
+    const noticias_grid = document.querySelector(".noticias-grid");
+    if (noticias_grid && typeof dados_noticias !== 'undefined') {
+    
+        // Filtra notícias para a página 1 (IDs 1-12)
+        const noticiasPagina1 = dados_noticias.filter(noticia => 
+            noticia.id !== 0 && noticia.id > 0 && noticia.id <= 12
+        );
 
-        //Pula a notícia exemplo.
-        if (noticia.id == 0) {
-            continue;
+        for (const noticia of noticiasPagina1) {
+            let cardHTMLPagNoticias = `
+                <article class="card-noticia">
+                    <img src="${noticia.imagem}" alt="Imagem da Notícia" class="card-imagem">
+                    <div class="card-content">
+                        <h2 class="card-titulo">${noticia.titulo}</h2>
+                        <p class="card-descricao">${noticia.resumo}</p>
+                        <a href="templateNoticia.html?id=${noticia.id}" class="card-link">Leia mais</a>
+                    </div>
+                </article>
+            `;
+            // Adiciona o card ao grid
+            noticias_grid.innerHTML += cardHTMLPagNoticias;
         }
-        
-        const noticias_grid = document.querySelector(".noticias-grid");
-
-        let cardHTMLPagNoticias = `
-            <article class="card-noticia">
-                <img src="${noticia.imagem}" alt="Imagem da Notícia" class="card-imagem">
-                <div class="card-content">
-                    <h2 class="card-titulo">${noticia.titulo}</h2>
-                    <p class="card-descricao">${noticia.resumo}</p>
-                    <a href="templateNoticia.html?id=${noticia.id}" class="card-link">Leia mais</a>
-                </div>
-            </article>
-        `
-
-        noticias_grid.innerHTML += cardHTMLPagNoticias;
     }
 });
-// Filtra notícias para a página 1 (IDs 1-12)
-    const noticiasPagina1 = dados_noticias.filter(noticia => 
-        noticia.id !== 0 && noticia.id > 0 && noticia.id <= 12
-    );
-
-    for (const noticia of noticiasPagina1) {
-        let cardHTMLPagNoticias = `
-            <article class="card-noticia">
-                <img src="${noticia.imagem}" alt="Imagem da Notícia" class="card-imagem">
-                <div class="card-content">
-                    <h2 class="card-titulo">${noticia.titulo}</h2>
-                    <p class="card-descricao">${noticia.resumo}</p>
-                    <a href="templateNoticia.html?id=${noticia.id}" class="card-link">Leia mais</a>
-                </div>
-            </article>
-        `;
-        noticias_grid.innerHTML += cardHTMLPagNoticias;
-    }
+    
