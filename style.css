@@ -847,3 +847,62 @@ html[data-theme="dark"] .container-introducao {
 .pagina:hover {
     background: #f0f0f0;
 }
+
+html::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 220ms cubic-bezier(.2,.8,.2,1), background-color 220ms cubic-bezier(.2,.8,.2,1);
+  z-index: 9999;
+  will-change: opacity, background-color;
+}
+
+/* overlay para ir ao escuro / voltar ao claro */
+html.theme-fading[data-fade="to-dark"]::before {
+  background-color: rgba(0,0,0,0.62);
+  opacity: 1;
+}
+html.theme-fading[data-fade="to-light"]::before {
+  background-color: rgba(194, 194, 194, 0.88);
+  opacity: 1;
+}
+
+/* sutil blur do conteúdo enquanto a overlay está ativa (fica por trás da overlay) */
+html.theme-fading body {
+  filter: blur(1px);
+  transition: filter 260ms ease;
+  will-change: filter;
+}
+
+/* Suaviza as mudanças de cores/fundos em blocos importantes */
+html, body,
+header, footer,
+.card-noticia, .card, .box,
+#titulo-limitado, .card-titulo, .card-descricao,
+a, .card-link, .main-title, #noticia-corpo, #caixa_de_texto_imagem {
+  transition: color 240ms ease, background-color 240ms ease, border-color 220ms ease, box-shadow 240ms ease, filter 240ms ease;
+  will-change: color, background-color, box-shadow, filter;
+}
+
+/* imagens e ícones: leve transição (não exagera) */
+img, .card-imagem {
+  transition: opacity 180ms ease, transform 180ms ease, filter 180ms ease;
+}
+
+/* botão do tema: suaviza mudança de cor e sombra */
+#theme-toggle {
+  transition: transform 160ms ease, box-shadow 180ms ease, background 160ms ease, color 160ms ease;
+}
+
+/* reduz animações para usuários que preferem menos movimento */
+@media (prefers-reduced-motion: reduce) {
+  html::before { transition: none; }
+  html.theme-fading[data-fade]::before { opacity: 0 !important; }
+  html.theme-fading body { filter: none !important; }
+  html, body, header, footer, .card-noticia, .card, .box,
+  #titulo-limitado, .card-titulo, .card-descricao, a, .card-link, img {
+    transition: none !important;
+  }
+}
