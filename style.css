@@ -436,6 +436,94 @@ img {
     margin-bottom: 20px;
 }
 
+#noticia-titulo {
+    font-size: clamp(2rem, 5vw, 3.125rem);
+    font-weight: bold;
+    text-align: center;
+    max-width: 1200px;
+    width: 90%;
+    margin: 60px auto 10px auto;
+    overflow-wrap: break-word;
+}
+
+#noticia-data {
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+#noticia-imagem {
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    max-height: 600px;
+    object-fit: cover;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+#noticia-corpo {
+    text-indent: 2em;
+    max-width: 800px;
+    width: 90%;
+    margin: 40px auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.noticia-secao-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    max-width: 800px;
+    width: 90%;
+    margin: 40px auto 20px auto;
+}
+
+.noticia-secao-header p {
+    font-size: 17px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.noticia-hr {
+    width: 100%;
+    border: none;
+    border-top: 2px solid grey;
+}
+
+#noticia-audio {
+    display: block;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+.noticia-autor-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto 40px auto;
+}
+
+#autor-imagem.img-circular {
+    width: 100px;
+    height: 100px;
+}
+
+#autor-nome {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(165, 148, 148);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 #titulo-limitado {
     text-align: center;
     font-size: 50px;

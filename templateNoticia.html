@@ -22,46 +22,44 @@
     <script src="dados_noticias.js"></script>
     <script src="carregadorPaginaNoticias.js"></script>
   </head>
-  <body>
-    <header>
-      <div id="header-placeholder"></div>
-    </header>
+    <body>
+  <header>
+    <div id="header-placeholder"></div>
+  </header>
 
-    <p id="noticia-titulo" style="margin-top: 60px; text-align: center; font-size: 50px; max-width: 1200px; margin: 20px auto 0 auto; overflow-wrap: break-word;">
-        <strong>Carregando...</strong>
-    </p>
-    <p id="noticia-data" style="text-align: center; font-size: 15px; color: grey; margin-bottom: 20px;"></p>
-    
-    <img id="noticia-imagem" src="" style="display: block; margin-left: auto; margin-right: auto; width: 35%; border-radius: 8px;" alt="Imagem da notícia">
-    
-    <div id="noticia-corpo" class="corpo-noticia" style="margin: 40px auto; max-width: 800px; font-size: 18px; line-height: 1.6;">
-      <p>Carregando conteúdo...</p>
-    </div>
-    
-    <div id="audio-secao">
-        <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
-            <p style="font-size: 17px"><strong>Notícia em áudio</strong></p>
-            <hr style="width: 650px; border: none; border-top: 2px solid grey; margin: 0 10px;">
-        </div>
-        <audio id="noticia-audio" controls style="display: block; margin: 0 auto; margin-bottom: 20px;">
-            <source src="" type="audio/mpeg">
-        </audio>
-    </div>
+  <p id="noticia-titulo"><strong>Carregando...</strong></p>
+  <p id="noticia-data"></p>
+  
+  <img id="noticia-imagem" src="" alt="Imagem da notícia">
+  
+  <div id="noticia-corpo" class="corpo-noticia">
+    <p>Carregando conteúdo...</p>
+  </div>
+  
+  <div id="audio-secao">
+      <div class="noticia-secao-header">
+          <p><strong>Notícia em áudio</strong></p>
+          <hr class="noticia-hr">
+      </div>
+      <audio id="noticia-audio" controls>
+          <source src="" type="audio/mpeg">
+      </audio>
+  </div>
 
-    <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
-        <p style="font-size: 17px"><strong>Escrito por</strong></p>
-        <hr style="width: 700px; border: none; border-top: 2px solid grey; margin: 0 10px;">
-    </div>
-    
-    <div style="display: flex; justify-content: center; align-items: center; margin-right: 25vw">
-        <img id="autor-imagem" src="" alt="Imagem da pessoa que fez a noticia" class="img-circular" style="width: 100px; height: 100px;">
-        <p id="autor-nome" style="font-size: 20px; margin-left: 30px; color: rgb(165, 148, 148); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
-            <strong></strong>
-        </p>
-    </div>
-
-    <footer>
-      <div id="rodape-placeholder"></div>
-    </footer>
-  </body>
+  <div class="noticia-secao-header">
+      <p><strong>Escrito por</strong></p>
+      <hr class="noticia-hr">
+  </div>
+  
+  <div class="noticia-autor-container">
+      <img id="autor-imagem" src="" alt="Imagem da pessoa que fez a noticia" class="img-circular">
+      <p id="autor-nome">
+          <strong></strong>
+      </p>
+  </div>
+  
+  <footer>
+    <div id="rodape-placeholder"></div>
+  </footer>
+</body>
 </html>

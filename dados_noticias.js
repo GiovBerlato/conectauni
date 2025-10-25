@@ -25,20 +25,20 @@ const dados_noticias = [
         imagem: "imagem-noticias/barnabé.png", 
         audio: "", 
         resumo: "Conhecido por todos como \"Barnabé\", o cãozinho que apareceu no campus há dois anos agora tem uma casinha customizada e participa de eventos para aliviar o estresse dos estudantes em época de provas.", 
-        conteudo: `O mascote Barnabé conquistou rapidamente a comunidade
+        conteudo: `<p>O mascote Barnabé conquistou rapidamente a comunidade
 acadêmica, incluindo alunos como Ana Clara Fonseca, 20 anos, e Rafael Martins,
 21 anos, que destacaram a presença do cão como fonte de alegria e alívio do
-estresse diário.<br>
-Segundo os estudantes, a ideia surgiu para promover momentos
+estresse diário.</p>
+<p>Segundo os estudantes, a ideia surgiu para promover momentos
 de descontração e interação entre os alunos. “Barnabé está sempre presente nos
 corredores e áreas de convivência, trazendo leveza e carinho para todos. Ele se
 tornou um verdadeiro coordenador do bem-estar emocional do campus”, explicou
-Ana Clara.<br>
-A universidade apoiou a iniciativa, autorizando a instalação
+Ana Clara.</p>
+<p>A universidade apoiou a iniciativa, autorizando a instalação
 de uma pequena casinha para Barnabé em área segura do campus e fornecendo um
 crachá simbólico para identificação do mascote. A medida ganhou destaque nas
 redes sociais da instituição, recebendo elogios da comunidade acadêmica e da
-imprensa local.`,
+imprensa local.</p>`,
         categoria: ""
     },
     {
@@ -49,7 +49,12 @@ imprensa local.`,
         imagem: "imagem-noticias/Volei.png.png", 
         audio: "", 
         resumo: "A Universidade Federal do Planalto (UFP) é a grande campeã da Superliga Universitária de Voleibol. Em uma final eletrizante decidida no tie-break, a equipe das \"Leoas da Serra\" superou as rivais da UMEC por 3 sets a 2, conquistando o título inédito para a instituição.", 
-        conteudo: "", 
+        conteudo: `<p>O time feminino de vôlei da Universidade Atlântica conquistou, nesta sexta-feira (01/11/2025), o título do Interuniversidades da região Sul. Com atuações consistentes e espírito de equipe, as jogadoras garantiram a vitória após partidas intensas e emocionantes contra equipes de universidades concorrentes.</p>
+        <p>A equipe, composta por 12 atletas, contou com jogadoras destaque como Camila Ferreira, 21 anos, e Júlia Santos, 22 anos, que marcaram pontos decisivos durante a final. O campeonato, realizado em Florianópolis, reuniu times femininos de diversas universidades da região, proporcionando partidas de alto nível técnico e muita emoção para atletas e torcedores.</p>
+<p>Segundo a treinadora, Patrícia Albuquerque, o sucesso do time é fruto de disciplina, dedicação e trabalho coletivo. “As jogadoras mostraram garra e determinação em cada set. Esse título é o resultado de esforço, treinamento e união de toda a equipe”, explicou Patrícia.,</p>
+<p>Além do reconhecimento regional, a vitória garante à Universidade Atlântica participação em competições nacionais, reforçando a tradição esportiva da instituição e incentivando a prática de esportes entre alunas de diferentes cursos.</p>
+
+        `, 
         categoria: ""
     },
     {
