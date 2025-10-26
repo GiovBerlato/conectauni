@@ -12,34 +12,26 @@ const dados_noticias = [
         autor: "John Doe", // autor da noticia
         data: "October 12, 2025", // data da publicação da noticia
         imagem: "", // caminho até a foto da noticia (exemplo: "imagem-noticias/foto.png")
+        legenda: "", // legenda da imagem da notícia (aparece abaixo da imagem)
         audio: "", // caminho até o áudio da noticia (exemplo: "audio-noticias/audio.mp3")
+        legendaAudio: "", // legenda do áudio da notícia (aparece abaixo do player de áudio)
         resumo: "", // resumo da notícia (o texto introdutório que aparece no card que leva ao site da notícia)
         conteudo: "", // texto completo da noticia
         categoria: "" // categorias disponiveis até agora: geral, esportes ou bolsas
     },
     {
         id: 1, 
-        titulo: "Cachorro 'caramelo' vira mascote oficial do campus e ganha crachá de 'Coordenador de Bem-Estar Emocional", 
-        autor: "Eduardo Mendes", 
-        data: "12 de Outubro de 2025", 
-        imagem: "imagem-noticias/barnabé.png", 
-        audio: "", 
-        resumo: "Conhecido por todos como \"Barnabé\", o cãozinho que apareceu no campus há dois anos agora tem uma casinha customizada e participa de eventos para aliviar o estresse dos estudantes em época de provas.", 
-        conteudo: `<p>O mascote Barnabé conquistou rapidamente a comunidade
-acadêmica, incluindo alunos como Ana Clara Fonseca, 20 anos, e Rafael Martins,
-21 anos, que destacaram a presença do cão como fonte de alegria e alívio do
-estresse diário.</p>
-<p>Segundo os estudantes, a ideia surgiu para promover momentos
-de descontração e interação entre os alunos. “Barnabé está sempre presente nos
-corredores e áreas de convivência, trazendo leveza e carinho para todos. Ele se
-tornou um verdadeiro coordenador do bem-estar emocional do campus”, explicou
-Ana Clara.</p>
-<p>A universidade apoiou a iniciativa, autorizando a instalação
-de uma pequena casinha para Barnabé em área segura do campus e fornecendo um
-crachá simbólico para identificação do mascote. A medida ganhou destaque nas
-redes sociais da instituição, recebendo elogios da comunidade acadêmica e da
-imprensa local.</p>`,
-        categoria: ""
+        titulo: "Cachorro Barnabé é \"nomeado\" coordenador do bem-estar emocional no campus da Universidade Estrela do Saber", 
+        autor: "Por Mariana Lopes – Belo Horizonte (MG)", 
+        data: "30/10/2025, 12h00", 
+        imagem: "imagem-noticias/barnabé.png",
+        legenda: "Barnabé, o novo coordenador do bem-estar emocional, recebe carinho de alunos na Universidade Estrela do Saber. (Foto: Lucas Oliveira/Universidade Estrela do Saber)",
+        audio: "audios-noticia/barnabe.mp3",
+        legendaAudio:"Entrevista com Ana Clara Fonseca, estudante, sobre a presença de Barnabé e seu impacto no bem-estar emocional dos alunos.", 
+        resumo: "Alunos oferecem crachá e casa personalizada ao novo mascote universitário, que ganhou espaço cativo entre os estudantes e se tornou símbolo de apoio emocional no campus.", 
+        conteudo: `Um cachorro caramelo chamado Barnabé, que apareceu recentemente no campus da Universidade Estrela do Saber, se tornou sensação entre os estudantes. Em gesto simbólico de inclusão, os alunos "nomearam" o animal como coordenador do bem-estar emocional da universidade, entregando-lhe até um crachá e uma casinha personalizada para seu conforto.<br><br>O mascote Barnabé conquistou rapidamente a comunidade acadêmica, incluindo alunos como Ana Clara Fonseca, 20 anos, e Rafael Martins, 21 anos, que destacaram a presença do cão como fonte de alegria e alívio do estresse diário.<br><br>Segundo os estudantes, a ideia surgiu para promover momentos de descontração e interação entre os alunos. "Barnabé está sempre presente nos corredores e áreas de convivência, trazendo leveza e carinho para todos. Ele se tornou um verdadeiro coordenador do bem-estar emocional do campus", explicou Ana Clara.<br><br>A universidade apoiou a iniciativa, autorizando a instalação de uma pequena casinha para Barnabé em área segura do campus e fornecendo um crachá simbólico para identificação do mascote. A medida ganhou destaque nas redes sociais da instituição, recebendo elogios da comunidade acadêmica e da imprensa local.<br><br>Barnabé se tornou mais que um mascote: é um símbolo de união, acolhimento e bem-estar no campus da Universidade Estrela do Saber, mostrando como pequenos gestos podem transformar o ambiente universitário em um espaço mais humano e acolhedor.`
+        ,   
+        categoria: "geral"
     },
     {
         id: 2, 
@@ -76,7 +68,7 @@ imprensa local.</p>`,
         imagem: "imagem-noticias/autismo.png", 
         audio: "", 
         resumo: "A Universidade do Saber realizou, nesta terça-feira (21), o seu primeiro Campeonato de Xadrez Inclusivo, destinado a alunos com autismo. A iniciativa, promovida no campus central em São Paulo, teve como objetivo estimular a concentração, a estratégia e a interação social dos participantes, reforçando o compromisso da instituição com a inclusão e a valorização da diversidade.", 
-        conteudo: "`<p>O campeonato contou com a participação de vinte estudantes, acompanhados por monitores especializados em educação inclusiva. Entre os participantes, destacou-se Lucas Andrade, 19 anos, que conquistou o primeiro lugar após vencer partidas desafiadoras.</p> <p>De acordo com Ana Beatriz Santos, coordenadora do programa de inclusão da universidade, o evento representa uma oportunidade única de reconhecer talentos e oferecer condições igualitárias para todos os alunos. “O xadrez não é apenas um jogo; é uma ferramenta que estimula habilidades cognitivas, promove paciência e incentiva a interação social, aspectos fundamentais para nossos estudantes com autismo”, explicou Ana</p> <p>Além das partidas, o evento contou com palestras curtas sobre estratégias de xadrez e momentos de socialização, nos quais os alunos puderam compartilhar experiências e reflexões sobre o cotidiano acadêmico. A iniciativa recebeu apoio integral da direção da universidade e de professores voluntários de diversos cursos, consolidando a prática como modelo de inclusão no campus. </p>", 
+        conteudo: "<p>O campeonato contou com a participação de vinte estudantes, acompanhados por monitores especializados em educação inclusiva. Entre os participantes, destacou-se Lucas Andrade, 19 anos, que conquistou o primeiro lugar após vencer partidas desafiadoras.</p> <p>De acordo com Ana Beatriz Santos, coordenadora do programa de inclusão da universidade, o evento representa uma oportunidade única de reconhecer talentos e oferecer condições igualitárias para todos os alunos. “O xadrez não é apenas um jogo; é uma ferramenta que estimula habilidades cognitivas, promove paciência e incentiva a interação social, aspectos fundamentais para nossos estudantes com autismo”, explicou Ana</p> <p>Além das partidas, o evento contou com palestras curtas sobre estratégias de xadrez e momentos de socialização, nos quais os alunos puderam compartilhar experiências e reflexões sobre o cotidiano acadêmico. A iniciativa recebeu apoio integral da direção da universidade e de professores voluntários de diversos cursos, consolidando a prática como modelo de inclusão no campus. </p>", 
         categoria: "", 
         link: "" 
     },
@@ -88,7 +80,7 @@ imprensa local.</p>`,
         imagem: "imagem-noticias/concursodebolsa.png", 
         audio: "", 
         resumo: "A Universidade Horizonte do Saber realizou, neste domingo (20), seu concurso anual de bolsas, destinado a selecionar novos alunos para ingresso no próximo semestre. A avaliação, realizada das 8h às 12h, contou com diferentes modalidades de questões e proporcionou oportunidades de bolsas integrais e parciais.", 
-        conteudo: "`<p>Entre os participantes, destacaram-se Ana Clara Freitas, 18 anos, e Gustavo Henrique Lopes, 19 anos, que demonstraram grande desempenho durante a prova. O exame, aplicado em unidades presenciais da universidade em várias cidades do país, avaliou conhecimentos em diversas áreas, incluindo Língua Portuguesa, Matemática, Ciências e Atualidades.</p> <p>Segundo o coordenador do concurso, Marcelo Tavares, a prova foi cuidadosamente elaborada para identificar candidatos com potencial acadêmico e comprometimento com os estudos. “Nosso objetivo é oferecer oportunidades para estudantes que se destacam pelo esforço e dedicação, garantindo bolsas de até 100% para os melhores desempenhos”, explicou Marcelo.</p> <p>O concurso contou com diferentes níveis de bolsas, variando de 25% a 100%, de acordo com o resultado obtido por cada candidato. A divulgação dos aprovados está prevista para o dia 28 de outubro, com matrículas previstas ainda este mês. </p> <p>A universidade também disponibilizou materiais de estudo online, garantindo acesso equitativo e ajudando os candidatos a se prepararem da melhor forma possível.</p>", 
+        conteudo: "<p>Entre os participantes, destacaram-se Ana Clara Freitas, 18 anos, e Gustavo Henrique Lopes, 19 anos, que demonstraram grande desempenho durante a prova. O exame, aplicado em unidades presenciais da universidade em várias cidades do país, avaliou conhecimentos em diversas áreas, incluindo Língua Portuguesa, Matemática, Ciências e Atualidades.</p> <p>Segundo o coordenador do concurso, Marcelo Tavares, a prova foi cuidadosamente elaborada para identificar candidatos com potencial acadêmico e comprometimento com os estudos. “Nosso objetivo é oferecer oportunidades para estudantes que se destacam pelo esforço e dedicação, garantindo bolsas de até 100% para os melhores desempenhos”, explicou Marcelo.</p> <p>O concurso contou com diferentes níveis de bolsas, variando de 25% a 100%, de acordo com o resultado obtido por cada candidato. A divulgação dos aprovados está prevista para o dia 28 de outubro, com matrículas previstas ainda este mês. </p> <p>A universidade também disponibilizou materiais de estudo online, garantindo acesso equitativo e ajudando os candidatos a se prepararem da melhor forma possível.</p>", 
         categoria: ""
     },
     {
@@ -99,7 +91,7 @@ imprensa local.</p>`,
         imagem: "Imagem-noticias/deficiente.png", 
         audio: "", 
         resumo: "A Universidade Nova Visão inaugurou, nesta sexta-feira (18/10/2025), um laboratório especialmente desenvolvido para alunos com deficiência visual. O espaço conta com tecnologias adaptadas, ferramentas digitais e recursos de acessibilidade que permitem maior autonomia e participação dos estudantes em atividades acadêmicas.", 
-        conteudo: "`<p>O laboratório, localizado no campus central em Porto Alegre, oferece recursos como softwares de leitura em braille, impressoras 3D para materiais táteis, dispositivos de audiodescrição e orientação sonora, além de mesas e equipamentos adaptados. Entre os primeiros usuários, destacam-se Mariana Lima, 20 anos, aluna de Psicologia, e Rafael Souza, 22 anos, estudante de Engenharia, que elogiaram a iniciativa.</p> <p>Segundo a coordenadora do projeto de inclusão, Patrícia Mendes, o laboratório foi planejado para atender diferentes necessidades e garantir que todos os alunos possam acessar conteúdos e participar de experimentos práticos. “Nosso objetivo é oferecer condições iguais de aprendizado e promover a inclusão de forma concreta e eficaz”, explicou Patrícia.</p> <p>O laboratório também funcionará como centro de pesquisa em acessibilidade, permitindo que professores e estudantes desenvolvam novas tecnologias assistivas, além de capacitar monitores e docentes para o atendimento personalizado. </p>", 
+        conteudo: "<p>O laboratório, localizado no campus central em Porto Alegre, oferece recursos como softwares de leitura em braille, impressoras 3D para materiais táteis, dispositivos de audiodescrição e orientação sonora, além de mesas e equipamentos adaptados. Entre os primeiros usuários, destacam-se Mariana Lima, 20 anos, aluna de Psicologia, e Rafael Souza, 22 anos, estudante de Engenharia, que elogiaram a iniciativa.</p> <p>Segundo a coordenadora do projeto de inclusão, Patrícia Mendes, o laboratório foi planejado para atender diferentes necessidades e garantir que todos os alunos possam acessar conteúdos e participar de experimentos práticos. “Nosso objetivo é oferecer condições iguais de aprendizado e promover a inclusão de forma concreta e eficaz”, explicou Patrícia.</p> <p>O laboratório também funcionará como centro de pesquisa em acessibilidade, permitindo que professores e estudantes desenvolvam novas tecnologias assistivas, além de capacitar monitores e docentes para o atendimento personalizado. </p>", 
         categoria: ""
     },
       {
@@ -110,7 +102,7 @@ imprensa local.</p>`,
         imagem: "Imagem-noticias/feira.png", 
         audio: "", 
         resumo: "A Universidade Cidade Nova promoveu, nesta terça-feira (21/10/2025), sua tradicional Feira de Projetos Acadêmicos, reunindo estudantes de diferentes cursos para apresentar os trabalhos desenvolvidos durante o semestre. O evento, realizado no campus central em Recife, teve como objetivo incentivar a pesquisa, a inovação e a interação entre alunos, professores e visitantes.", 
-        conteudo: "`<p>Durante a feira, foram apresentados projetos nas áreas de Engenharia, Biotecnologia, Ciências Sociais, Artes e Tecnologia da Informação. Entre os destaques, estão o protótipo de uma casa sustentável desenvolvido por Gabriela Souza, 21 anos, aluna de Engenharia Civil, e um aplicativo de acessibilidade para transporte público criado por Lucas Ribeiro, 22 anos, estudante de Ciência da Computação.</p> <p>Segundo a coordenadora da feira, Helena Costa, o evento permite que os alunos compartilhem conhecimento e desenvolvam habilidades práticas que complementam a formação acadêmica. “É uma oportunidade de mostrar o que os estudantes conquistaram ao longo do semestre, promovendo criatividade, inovação e integração entre diferentes áreas”, explicou Helena.</p> <p>O evento contou ainda com apresentações de pôsteres, demonstrações práticas e sessões de perguntas e respostas com professores e especialistas convidados, estimulando a interação e o aprendizado coletivo. </p>", 
+        conteudo: "<p>Durante a feira, foram apresentados projetos nas áreas de Engenharia, Biotecnologia, Ciências Sociais, Artes e Tecnologia da Informação. Entre os destaques, estão o protótipo de uma casa sustentável desenvolvido por Gabriela Souza, 21 anos, aluna de Engenharia Civil, e um aplicativo de acessibilidade para transporte público criado por Lucas Ribeiro, 22 anos, estudante de Ciência da Computação.</p> <p>Segundo a coordenadora da feira, Helena Costa, o evento permite que os alunos compartilhem conhecimento e desenvolvam habilidades práticas que complementam a formação acadêmica. “É uma oportunidade de mostrar o que os estudantes conquistaram ao longo do semestre, promovendo criatividade, inovação e integração entre diferentes áreas”, explicou Helena.</p> <p>O evento contou ainda com apresentações de pôsteres, demonstrações práticas e sessões de perguntas e respostas com professores e especialistas convidados, estimulando a interação e o aprendizado coletivo. </p>", 
         categoria: ""
     },
       {
@@ -121,7 +113,7 @@ imprensa local.</p>`,
         imagem: "Imagem-noticias/formatura.png", 
         audio: "", 
         resumo: "A Universidade do Vale Real realizou, na noite desta quinta-feira (23/10/2025), a cerimônia de formatura da turma de Engenharia. Durante o evento, um apagão inesperado atingiu o campus, mas a equipe técnica acionou os geradores de energia, garantindo que a festa prosseguisse sem maiores transtornos.", 
-        conteudo: "`<p>A cerimônia contou com a presença de 120 formandos, entre eles Sofia Almeida, 23 anos, e Bruno Castro, 24 anos, que celebraram a conclusão de seus cursos junto a familiares, amigos e professores. O evento, realizado no auditório principal do campus, incluiu discursos, entrega de diplomas, apresentações culturais e momentos de confraternização.</p> <p>Segundo o coordenador da formatura, Ricardo Fonseca, a rápida ação da equipe técnica foi essencial para manter a normalidade do evento. “Houve uma queda de energia inesperada, mas nossos geradores entraram em funcionamento imediatamente, permitindo que a cerimônia continuasse sem interrupções. Foi um momento de muito alívio e alegria para todos”, afirmou Ricardo.</p> <p>Apesar do susto, a celebração manteve seu clima festivo, com música, iluminação adequada e protocolos de segurança, garantindo que os formandos pudessem comemorar a conquista de forma segura e memorável. </p>", 
+        conteudo: "<p>A cerimônia contou com a presença de 120 formandos, entre eles Sofia Almeida, 23 anos, e Bruno Castro, 24 anos, que celebraram a conclusão de seus cursos junto a familiares, amigos e professores. O evento, realizado no auditório principal do campus, incluiu discursos, entrega de diplomas, apresentações culturais e momentos de confraternização.</p> <p>Segundo o coordenador da formatura, Ricardo Fonseca, a rápida ação da equipe técnica foi essencial para manter a normalidade do evento. “Houve uma queda de energia inesperada, mas nossos geradores entraram em funcionamento imediatamente, permitindo que a cerimônia continuasse sem interrupções. Foi um momento de muito alívio e alegria para todos”, afirmou Ricardo.</p> <p>Apesar do susto, a celebração manteve seu clima festivo, com música, iluminação adequada e protocolos de segurança, garantindo que os formandos pudessem comemorar a conquista de forma segura e memorável. </p>", 
         categoria: ""
     },
     {
@@ -268,11 +260,7 @@ imprensa local.</p>`,
         categoria: ""
     },
     
-    
+    ];
 
-
-
-
-]
-
+// Identificador da notícia em destaque na página inicial
 const noticiaDestaqueId = 1;
