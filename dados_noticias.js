@@ -85,8 +85,24 @@ const dados_noticias = [
         resumo: "Mais de 1.500 candidatos participaram da avaliação, que oferece bolsas de até 100%.", 
         conteudo: `A Universidade Horizonte do Saber realizou, neste domingo (20), seu concurso anual de bolsas, destinado a selecionar novos alunos para ingresso no próximo semestre. A avaliação, realizada das 8h às 12h, contou com diferentes modalidades de questões e proporcionou oportunidades de bolsas integrais e parciais.<br><br>Entre os participantes, destacaram-se Ana Clara Freitas, 18 anos, e Gustavo Henrique Lopes, 19 anos, que demonstraram grande desempenho durante a prova. O exame, aplicado em unidades presenciais da universidade em várias cidades do país, avaliou conhecimentos em diversas áreas, incluindo Língua Portuguesa, Matemática, Ciências e Atualidades.<br><br>Segundo o coordenador do concurso, Marcelo Tavares, a prova foi cuidadosamente elaborada para identificar candidatos com potencial acadêmico e comprometimento com os estudos. "Nosso objetivo é oferecer oportunidades para estudantes que se destacam pelo esforço e dedicação, garantindo bolsas de até 100% para os melhores desempenhos", explicou Marcelo.<br><br>O concurso contou com diferentes níveis de bolsas, variando de 25% a 100%, de acordo com o resultado obtido por cada candidato. A divulgação dos aprovados está prevista para o dia 28 de outubro, com matrículas previstas ainda este mês.<br><br>A universidade também disponibilizou materiais de estudo online, garantindo acesso equitativo e ajudando os candidatos a se prepararem da melhor forma possível.<br><br>O concurso de bolsas da Universidade Horizonte do Saber reforça o compromisso da instituição com a democratização do ensino superior e com a formação de novos talentos. A expectativa é que o programa continue crescendo nos próximos anos, beneficiando cada vez mais estudantes em todo o país.`,   
         categoria: ""
-     }
-
+     },
+     {
+ 
+        id: 5, 
+        titulo: "Universidade Nova Visão inaugura laboratório inovador para alunos com deficiência visual", 
+        autor: "Por Camila Torres – Porto Alegre (RS)",
+        autorImagem: "imagem-autores/deficienteautor.png", 
+        data: "Publicado em 18/10/2025, 20h30", 
+        imagem: "imagem-noticias/deficiente.png",
+        legenda: "Alunos utilizam os recursos do laboratório de acessibilidade da Universidade Nova Visão durante atividades acadêmicas. (Foto: Lucas Pereira/Universidade Nova Visão)",
+        audio: "audios-noticia/deficienteaudio.mp3",
+        legendaAudio:"Áudio: Entrevista com Patrícia Mendes, coordenadora do projeto, explicando os recursos e objetivos do laboratório para alunos com deficiência visual.",
+        video: "",
+        legendaVideo: "",
+        resumo: "Espaço oferece recursos de acessibilidade e tecnologia assistiva para promover inclusão acadêmica.", 
+        conteudo: `A Universidade Nova Visão inaugurou, nesta sexta-feira (18/10/2025), um laboratório especialmente desenvolvido para alunos com deficiência visual. O espaço conta com tecnologias adaptadas, ferramentas digitais e recursos de acessibilidade que permitem maior autonomia e participação dos estudantes em atividades acadêmicas.<br><br>O laboratório, localizado no campus central em Porto Alegre, oferece recursos como softwares de leitura em braille, impressoras 3D para materiais táteis, dispositivos de audiodescrição e orientação sonora, além de mesas e equipamentos adaptados. Entre os primeiros usuários, destacam-se Mariana Lima, 20 anos, aluna de Psicologia, e Rafael Souza, 22 anos, estudante de Engenharia, que elogiaram a iniciativa.<br><br>Segundo a coordenadora do projeto de inclusão, Patrícia Mendes, o laboratório foi planejado para atender diferentes necessidades e garantir que todos os alunos possam acessar conteúdos e participar de experimentos práticos. "Nosso objetivo é oferecer condições iguais de aprendizado e promover a inclusão de forma concreta e eficaz", explicou Patrícia.<br><br>O laboratório também funcionará como centro de pesquisa em acessibilidade, permitindo que professores e estudantes desenvolvam novas tecnologias assistivas, além de capacitar monitores e docentes para o atendimento personalizado.<br><br>A inauguração do laboratório reforça o compromisso da Universidade Nova Visão com a inclusão e a diversidade, proporcionando oportunidades de aprendizado para alunos com deficiência visual. A expectativa é expandir os recursos do laboratório e torná-lo referência nacional em tecnologia assistiva para educação superior.`,   
+        categoria: ""
+}
 ]; 
 
 // Identificador da notícia em destaque na página inicial
