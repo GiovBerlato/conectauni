@@ -21,6 +21,7 @@
     <script src="script.js"></script>
     <script src="injetorDeNoticias.js"></script>
     <script src="dados_noticias.js"></script>
+    <script src="searchNoticias.js"></script>
   </head>
   <body>
     <header>
@@ -28,7 +29,32 @@
     </header>
     
     <main class="container">
-      <h1 class="main-title">Notícias</h1>
+ <main class="container">
+  <h1 class="main-title">Notícias</h1>
+<div class="search-wrapper" aria-hidden="false">
+  <label for="search-input" class="visually-hidden">Pesquisar notícias por título ou categoria</label>
+  <div class="search-bar">
+    <input id="search-input" class="search-input" type="search"
+           placeholder="Pesquisar por título ou categoria (ex.: esportes, bolsas, campeonatos)"
+           aria-label="Pesquisar notícias por título ou categoria" />
+
+    <button id="search-clear" class="search-clear" type="button" aria-label="Limpar pesquisa" title="Limpar">✕</button>
+  </div>
+
+  <div class="category-filters" role="toolbar" aria-label="Filtrar por categoria">
+    <button class="category-btn" data-cat="bolsas" type="button">Bolsas</button>
+    <button class="category-btn" data-cat="esportes" type="button">Esportes</button>
+    <button class="category-btn" data-cat="campeonatos" type="button">Campeonatos</button>
+    <button class="category-btn" data-cat="outros" type="button">Outros</button>
+  </div>
+
+  <div class="search-meta">
+    <span id="search-count" class="search-count" aria-live="polite"></span>
+  </div>
+</div>
+  <div class="noticias-grid"> 
+  </div>
+</main>
       <div class="noticias-grid"> 
         
       </div>
