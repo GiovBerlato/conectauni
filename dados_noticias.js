@@ -55,21 +55,21 @@ const dados_noticias = [
         categoria: ""
     },
     {
-        id: 2, 
-        titulo: "Placeholder", 
-        autor: "John Doe",
-        autorImagem: "imagem-noticias/placeholder.png", 
-        data: "October 12, 2025", 
-        imagem: "",
-        legenda: "",
-        audio: "",
-        legendaAudio:"",
+        id: 3, 
+        titulo: "Universidade Brasileira conquista campeonato internacional de robótica sustentável nos EUA", 
+        autor: "Por Felipe Oliveira – São Paulo (SP)",
+        autorImagem: "imagem-autores/roboticaautor.png", 
+        data: "22/10/2025, 16h00", 
+        imagem: "imagem-noticias/robotica.png",
+        legenda: "Equipe da Universidade Tecnológica de Inovação celebra a conquista do primeiro lugar no Campeonato Internacional de Robótica Sustentável em Boston, EUA. (Foto: João Pereira/UTI)",
+        audio: "audios-noticia/roboticaaudio.mp3",
+        legendaAudio:"Áudio: Entrevista com Mariana Costa, líder da equipe, sobre os desafios e aprendizados na competição internacional de robótica sustentável.",
         video: "",
         legendaVideo: "",
-        resumo: "", 
-        conteudo: ``,   
-        categoria: ""
-    } // ← FECHA A NOTÍCIA 2 CORRETAMENTE
+        resumo: "Equipe universitária representa o Brasil com projeto inovador e sustentável, saindo campeã da competição internacional", 
+        conteudo: `A Universidade Tecnológica de Inovação (UTI) conquistou, na última segunda-feira (20), o primeiro lugar no Campeonato Internacional de Robótica Sustentável, realizado em Boston, Estados Unidos. A equipe brasileira apresentou um robô totalmente funcional e ambientalmente sustentável, destacando-se pela inovação, eficiência energética e design criativo.<br><br>O robô, desenvolvido ao longo de 18 meses por alunos e professores do curso de Engenharia Mecatrônica, foi projetado para executar tarefas complexas utilizando energia limpa, sensores inteligentes e materiais recicláveis. Entre os integrantes da equipe, destaque para Mariana Costa, 22 anos, líder do projeto, e Pedro Almeida, 23 anos, responsável pela programação do robô.<br><br>Segundo o professor orientador Lucas Menezes, o sucesso da equipe é resultado de dedicação, pesquisa e planejamento estratégico. "Nosso objetivo sempre foi mostrar que tecnologia e sustentabilidade podem caminhar juntas. Esse prêmio reforça que é possível criar soluções inovadoras e ecológicas sem perder performance", afirmou.<br><br>Durante a competição, as equipes precisaram superar desafios de navegação autônoma, resolução de problemas e eficiência energética. O robô da UTI não apenas completou todas as tarefas com precisão, mas também apresentou soluções criativas para problemas inesperados, garantindo a vitória brasileira.<br><br>Com a vitória, a Universidade Tecnológica de Inovação confirma seu protagonismo em inovação e sustentabilidade no cenário internacional. A equipe planeja continuar desenvolvendo aprimoramentos para futuras competições e expandir a aplicação do robô em projetos sociais e industriais.`,   
+        categoria: "" 
+    }
 ]; 
 
 // Identificador da notícia em destaque na página inicial
