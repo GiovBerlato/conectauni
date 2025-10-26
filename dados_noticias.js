@@ -221,7 +221,7 @@ const dados_noticias = [
         legendaAudio:"",
         video: "",
         legendaVideo: "",
-        resumo: "Estudantes criam músicas com temas de matérias para descontrair e melhorar o desempenho nas provas", 
+        resumo: "Estudantes criam músicas com temas de matérias para descontrair e melhorar o desempenho nas provas.", 
         conteudo: `<p style="margin-bottom: 25px;">Um grupo de estudo da Universidade Rio Verde encontrou uma forma <strong>criativa de unir educação e diversão</strong>: transformar as revisões em músicas de pagode. A iniciativa surgiu no início do semestre e rapidamente conquistou estudantes, que agora utilizam as canções como ferramenta para memorizar conteúdos e aliviar o estresse durante os intervalos.</p>
 
 <p style="margin-bottom: 25px;">O grupo, formado por <strong>cinco alunos do curso de Administração</strong>, incluindo <strong>Tiago Mendes, 21 anos</strong>, e <strong>Camila Rocha, 22 anos</strong>, começou a criar músicas que incorporam fórmulas de matemática, conceitos de economia e temas de gestão. As apresentações acontecem nos intervalos entre as aulas e têm sido recebidas com entusiasmo pelos colegas.</p>
@@ -235,6 +235,214 @@ const dados_noticias = [
     },
     {
         id: 10, 
+        titulo: "Estudantes de Engenharia Agronômica da Universidade Verde Campo criam horta experimental no campus", 
+        autor: "Por Felipe Carvalho – Campinas (SP)", 
+        autorImagem: "imagem-autores/hortaautor.png", 
+        data: "Publicado em 27/10/2025, 16h00 ", 
+        imagem: "imagem-noticias/horta.png", 
+        legenda: "Estudantes de Engenharia Agronômica cuidam da horta experimental da Universidade Verde Campo, monitorando o crescimento das plantas. (Foto: Luana Almeida/Universidade Verde Campo)", 
+        audio: "audios-noticia/hortaudio.mp3", 
+        legendaAudio: "", 
+        video: "", 
+        legendaVideo: "", 
+        resumo: "Projeto permite testar plantações, condições climáticas e técnicas agrícolas dentro da universidade.", 
+        conteudo: `<p style="margin-bottom: 25px;">Alunos do curso de <strong>Engenharia Agronômica da Universidade Verde Campo</strong> implantaram, nesta segunda-feira (27/10/2025), uma <strong>horta experimental no campus</strong>. A iniciativa tem como objetivo proporcionar aprendizado prático sobre cultivo, variações climáticas e manejo de plantas, integrando teoria e prática dentro da formação acadêmica.</p>
+
+<p style="margin-bottom: 25px;">O projeto conta com a participação de estudantes como <strong>Mariana Ribeiro, 21 anos</strong>, e <strong>Pedro Henrique Santos, 22 anos</strong>, que são responsáveis pelo planejamento das áreas de plantio, irrigação e monitoramento das condições do solo e do clima. A horta inclui <strong>diferentes tipos de hortaliças, ervas medicinais e plantas ornamentais</strong>, permitindo que os alunos acompanhem o crescimento e testem técnicas de manejo sustentável.</p>
+
+<p style="margin-bottom: 25px;">Segundo o professor orientador, Antônio Lima, o <strong>laboratório a céu aberto oferece uma oportunidade única de aprendizado</strong>. <strong>"Os alunos conseguem aplicar os conhecimentos adquiridos em sala de aula diretamente na horta, observando como fatores como temperatura, luminosidade e umidade influenciam o desenvolvimento das plantas"</strong>, explicou Antônio.</p>
+
+<p style="margin-bottom: 25px;">O projeto também busca <strong>envolver a comunidade acadêmica</strong>, permitindo que outros cursos e alunos interessados participem das atividades e aprendam sobre <strong>agricultura urbana e sustentabilidade</strong>.</p>
+
+<p style="margin-bottom: 25px;">A horta experimental da Universidade Verde Campo representa um <strong>importante recurso pedagógico</strong> para os estudantes de Engenharia Agronômica, incentivando a prática, a pesquisa e o desenvolvimento de habilidades essenciais para o setor agrícola e sustentável.</p>`, 
+        categoria: ""
+    },
+    {
+        id: 11, 
+        titulo: "Universidade Internacional do Saber lança programa de intercâmbio para dupla certificação", 
+        autor: "Por Laura Mendes – São Paulo (SP)", 
+        autorImagem: "imagem-autores/intercambioautor.png", 
+        data: "Publicado em 28/10/2025, 14h00 ", 
+        imagem: "imagem-noticias/intercambio.png", 
+        legenda: "Alunos selecionados para o programa de intercâmbio da Universidade Internacional do Saber posam durante apresentação do projeto. (Foto: Mariana Lima/Universidade Internacional do Saber)", 
+        audio: "audios-noticia/intercambioaudio.mp3", 
+        legendaAudio: "", 
+        video: "", 
+        legendaVideo: "", 
+        resumo: "Alunos selecionados por meio de concurso de bolsas e desempenho acadêmico poderão estudar em universidades parceiras no exterior.", 
+        conteudo: `<p style="margin-bottom: 25px;">A Universidade Internacional do Saber anunciou, nesta terça-feira (28/10/2025), o lançamento de seu <strong>novo programa de intercâmbio para dupla certificação</strong>. A iniciativa permitirá que estudantes cursando graduação obtenham diplomas reconhecidos tanto no Brasil quanto em instituições internacionais, com vagas concedidas através de concurso de bolsas e notas em disciplinas específicas.</p>
+
+<p style="margin-bottom: 25px;">O programa selecionará <strong>alunos com excelente desempenho acadêmico</strong>, considerando notas nas matérias principais e participação em atividades complementares. Entre os primeiros contemplados estão <strong>Carolina Mendes, 21 anos</strong>, e <strong>João Victor Silva, 22 anos</strong>, que demonstraram comprometimento e destaque em suas respectivas áreas.</p>
+
+<p style="margin-bottom: 25px;">Segundo o coordenador do programa, Felipe Tavares, o projeto visa proporcionar <strong>experiência internacional e ampliar o conhecimento acadêmico</strong> dos estudantes. <strong>"Nosso objetivo é oferecer uma oportunidade única para que os alunos estudem em instituições parceiras no exterior e retornem com uma certificação reconhecida internacionalmente, ampliando suas perspectivas profissionais"</strong>, explicou Felipe.</p>
+
+<p style="margin-bottom: 25px;">O programa inclui <strong>cursos ministrados em inglês, acompanhamento acadêmico personalizado e apoio logístico</strong> para os estudantes durante o período no exterior. Além disso, os alunos selecionados receberão <strong>suporte financeiro parcial ou integral</strong>, dependendo do desempenho no concurso de bolsas.</p>
+
+<p style="margin-bottom: 25px;">O novo programa de intercâmbio da Universidade Internacional do Saber reforça o <strong>compromisso da instituição com a mobilidade acadêmica e internacionalização</strong>, formando profissionais capacitados para atuar globalmente. A expectativa é expandir o programa nos próximos anos, beneficiando cada vez mais estudantes.</p>`,
+        categoria: ""
+    },
+    {
+        id: 12, 
+        titulo: "Universidade Sol Nascente substitui todas as lâmpadas do campus por LEDs", 
+        autor: "Por Ricardo Almeida – Porto Alegre (RS)", 
+        autorImagem: "imagem-autores/ledautor.png", 
+        data: "Publicado em 29/10/2025, 11h00 ", 
+        imagem: "imagem-noticias/led.png", 
+        legenda: "Técnicos e estudantes da Universidade Sol Nascente participam da instalação de lâmpadas LED no campus. (Foto: Ana Luiza/Universidade Sol Nascente)", 
+        audio: "audios-noticia/ledaudio.mp3", 
+        legendaAudio: "", 
+        video: "", 
+        legendaVideo: "", 
+        resumo: "Medida melhora a iluminação e reduz em 40% o consumo de energia elétrica no campus.", 
+        conteudo: `<p style="margin-bottom: 25px;">A Universidade Sol Nascente concluiu, nesta quarta-feira (29/10/2025), a <strong>substituição de todas as lâmpadas do campus por tecnologia LED</strong>. A iniciativa visa aumentar a eficiência energética, melhorar a iluminação dos espaços acadêmicos e reduzir custos com energia elétrica em cerca de 40%.</p>
+
+<p style="margin-bottom: 25px;">O projeto foi coordenado pelo <strong>engenheiro elétrico da universidade, Marcelo Torres</strong>, e contou com a participação de uma equipe de técnicos e alunos de Engenharia Elétrica. Segundo Marcelo, a atualização das lâmpadas permite <strong>maior luminosidade, menor consumo de energia e menor manutenção</strong>, além de contribuir para práticas de sustentabilidade.</p>
+
+<p style="margin-bottom: 25px;">Entre os beneficiados estão os estudantes do curso de <strong>Arquitetura e Urbanismo</strong>, como <strong>Larissa Mendes, 21 anos</strong>, e <strong>Gabriel Costa, 22 anos</strong>, que destacaram a melhora na iluminação de salas de aula, laboratórios e áreas externas do campus.</p>
+
+<p style="margin-bottom: 25px;">A substituição das lâmpadas também faz parte de um <strong>plano mais amplo da universidade para reduzir a pegada de carbono</strong> e tornar o campus mais sustentável. O investimento incluiu planejamento, instalação e ajustes elétricos para garantir máxima eficiência energética e conforto para alunos e professores.</p>
+
+<p style="margin-bottom: 25px;">Com a adoção das lâmpadas LED, a Universidade Sol Nascente demonstra <strong>compromisso com sustentabilidade, eficiência energética e bem-estar</strong> de sua comunidade acadêmica, tornando o campus mais iluminado, seguro e ecologicamente responsável.</p>`,
+        categoria: ""
+    },
+    {
+        id: 13, 
+        titulo: "Universidade Digital Elite conquista título em campeonato regional de League of Legends", 
+        autor: "Por Mariana Souza – São Paulo (SP)", 
+        autorImagem: "imagem-autores/esportsautor.png", 
+        data: "Publicado em 31/10/2025, 18h00 ", 
+        imagem: "imagem-noticias/esports.png.png", 
+        legenda: "Equipe de League of Legends da Universidade Digital Elite comemora a vitória no campeonato regional de e-sports. (Foto: Gabriel Silva/Universidade Digital Elite)", 
+        audio: "audios-noticia/esportsaudio.mp3", 
+        legendaAudio: "", 
+        video: "", 
+        legendaVideo: "", 
+        resumo: "Equipe universitária se destaca na competição e garante vitória após partidas emocionantes.", 
+        conteudo: `<p style="margin-bottom: 25px;">O time de <strong>League of Legends da Universidade Digital Elite</strong> foi campeão do campeonato regional de e-sports, realizado neste sábado (31/10/2025). Com partidas intensas e grande estratégia, a equipe conquistou o título e garantiu <strong>reconhecimento entre universidades da região</strong>.</p>
+
+<p style="margin-bottom: 25px;">A equipe, composta por <strong>cinco jogadores principais</strong>, contou com destaques como <strong>Rafael "Dragão" Lima, 21 anos</strong>, e <strong>Camila "Fênix" Rocha, 22 anos</strong>, que marcaram jogadas decisivas nas semifinais e finais do torneio. A competição reuniu times universitários de diferentes cidades, proporcionando <strong>partidas de alto nível técnico</strong> e momentos de grande emoção para participantes e torcedores.</p>
+
+<p style="margin-bottom: 25px;">Segundo o técnico da equipe, Lucas Martins, a vitória é resultado de <strong>muito treino, estratégia e trabalho em equipe</strong>. <strong>"Nossos jogadores demonstraram dedicação e união em cada partida. Esse título é fruto do esforço coletivo e do comprometimento de todos"</strong>, afirmou Lucas.</p>
+
+<p style="margin-bottom: 25px;">A vitória do campeonato regional também garante à Universidade Digital Elite <strong>participação em competições estaduais e nacionais de e-sports</strong>, além de reforçar a tradição da instituição no cenário universitário de jogos eletrônicos.</p>
+
+<p style="margin-bottom: 25px;">O título conquistado pela Universidade Digital Elite no campeonato de League of Legends <strong>reafirma o crescimento dos e-sports no ambiente acadêmico</strong> e destaca o compromisso da universidade em apoiar atividades extracurriculares que desenvolvem habilidades estratégicas, trabalho em equipe e pensamento crítico nos estudantes.</p>`, 
+        categoria: ""
+    },
+    {
+        id: 14, 
+        titulo: "Placeholder", 
+        autor: "John Doe", 
+        autorImagem: "imagem-noticias/placeholder.png", 
+        data: "October 12, 2025", 
+        imagem: "", 
+        legenda: "", 
+        audio: "", 
+        legendaAudio: "", 
+        video: "", 
+        legendaVideo: "", 
+        resumo: "", 
+        conteudo: "", 
+        categoria: ""
+    },
+    {
+        id: 15, 
+        titulo: "Placeholder", 
+        autor: "John Doe", 
+        autorImagem: "imagem-noticias/placeholder.png", 
+        data: "October 12, 2025", 
+        imagem: "", 
+        legenda: "", 
+        audio: "", 
+        legendaAudio: "", 
+        video: "", 
+        legendaVideo: "", 
+        resumo: "", 
+        conteudo: "", 
+        categoria: ""
+    },
+    {
+        id: 16, 
+        titulo: "Placeholder", 
+        autor: "John Doe", 
+        autorImagem: "imagem-noticias/placeholder.png", 
+        data: "October 12, 2025", 
+        imagem: "", 
+        legenda: "", 
+        audio: "", 
+        legendaAudio: "", 
+        video: "", 
+        legendaVideo: "", 
+        resumo: "", 
+        conteudo: "", 
+        categoria: ""
+    },
+    {
+        id: 17, 
+        titulo: "Placeholder", 
+        autor: "John Doe", 
+        autorImagem: "imagem-noticias/placeholder.png", 
+        data: "October 12, 2025", 
+        imagem: "", 
+        legenda: "", 
+        audio: "", 
+        legendaAudio: "", 
+        video: "", 
+        legendaVideo: "", 
+        resumo: "", 
+        conteudo: "", 
+        categoria: ""
+    },
+    {
+        id: 18, 
+        titulo: "Placeholder", 
+        autor: "John Doe", 
+        autorImagem: "imagem-noticias/placeholder.png", 
+        data: "October 12, 2025", 
+        imagem: "", 
+        legenda: "", 
+        audio: "", 
+        legendaAudio: "", 
+        video: "", 
+        legendaVideo: "", 
+        resumo: "", 
+        conteudo: "", 
+        categoria: ""
+    },
+    {
+        id: 19, 
+        titulo: "Placeholder", 
+        autor: "John Doe", 
+        autorImagem: "imagem-noticias/placeholder.png", 
+        data: "October 12, 2025", 
+        imagem: "", 
+        legenda: "", 
+        audio: "", 
+        legendaAudio: "", 
+        video: "", 
+        legendaVideo: "", 
+        resumo: "", 
+        conteudo: "", 
+        categoria: ""
+    },
+    {
+        id: 20, 
+        titulo: "Placeholder", 
+        autor: "John Doe", 
+        autorImagem: "imagem-noticias/placeholder.png", 
+        data: "October 12, 2025", 
+        imagem: "", 
+        legenda: "", 
+        audio: "", 
+        legendaAudio: "", 
+        video: "", 
+        legendaVideo: "", 
+        resumo: "", 
+        conteudo: "", 
+        categoria: ""
+    },
+     {
+        id: 21, 
         titulo: "Placeholder", 
         autor: "John Doe", 
         autorImagem: "imagem-noticias/placeholder.png", 
@@ -250,6 +458,7 @@ const dados_noticias = [
         categoria: ""
     },
 ]; 
+
 
 
 // Identificador da notícia em destaque na página inicial
