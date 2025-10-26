@@ -331,130 +331,194 @@ const dados_noticias = [
     },
     {
         id: 14, 
-        titulo: "Placeholder", 
-        autor: "John Doe", 
-        autorImagem: "imagem-noticias/placeholder.png", 
-        data: "October 12, 2025", 
-        imagem: "", 
-        legenda: "", 
-        audio: "", 
+        titulo: "Time feminino de vôlei da Universidade Atlântica é campeão do Interuniversidades", 
+        autor: "Por Laura Martins – Porto Alegre (RS)", 
+        autorImagem: "imagem-autores/voleiautor.png", 
+        data: "Publicado em 01/11/2025, 16h30 ", 
+        imagem: "imagem-noticias/Volei.png.png", 
+        legenda: "Jogadoras do time feminino de vôlei da Universidade Atlântica comemoram a vitória no Interuniversidades Sul. (Foto: Fernanda Lima/Universidade Atlântica)", 
+        audio: "audios-noticia/voleiaudio.mp3", 
         legendaAudio: "", 
         video: "", 
         legendaVideo: "", 
-        resumo: "", 
-        conteudo: "", 
+        resumo: "Equipe se destaca na competição e garante vitória após partidas emocionantes contra universidades do Sul do país.", 
+        conteudo: `<p style="margin-bottom: 25px;">O <strong>time feminino de vôlei da Universidade Atlântica</strong> conquistou, nesta sexta-feira (01/11/2025), o <strong>título do Interuniversidades da região Sul</strong>. Com atuações consistentes e espírito de equipe, as jogadoras garantiram a vitória após partidas intensas e emocionantes contra equipes de universidades concorrentes.</p>
+
+<p style="margin-bottom: 25px;">A equipe, composta por <strong>12 atletas</strong>, contou com jogadoras destaque como <strong>Camila Ferreira, 21 anos</strong>, e <strong>Júlia Santos, 22 anos</strong>, que marcaram pontos decisivos durante a final. O campeonato, realizado em Florianópolis, reuniu times femininos de diversas universidades da região, proporcionando <strong>partidas de alto nível técnico</strong> e muita emoção para atletas e torcedores.</p>
+
+<p style="margin-bottom: 25px;">Segundo a treinadora, Patrícia Albuquerque, o sucesso do time é fruto de <strong>disciplina, dedicação e trabalho coletivo</strong>. <strong>"As jogadoras mostraram garra e determinação em cada set. Esse título é o resultado de esforço, treinamento e união de toda a equipe"</strong>, explicou Patrícia.</p>
+
+<p style="margin-bottom: 25px;">Além do reconhecimento regional, a vitória garante à Universidade Atlântica <strong>participação em competições nacionais</strong>, reforçando a tradição esportiva da instituição e incentivando a prática de esportes entre alunas de diferentes cursos.</p>
+
+<p style="margin-bottom: 25px;">O título conquistado pelo time feminino de vôlei da Universidade Atlântica no Interuniversidades Sul <strong>reforça o compromisso da instituição com o esporte</strong>, promovendo desenvolvimento físico, trabalho em equipe e valorização das atletas no ambiente acadêmico.</p>`,
         categoria: ""
     },
     {
         id: 15, 
-        titulo: "Placeholder", 
-        autor: "John Doe", 
-        autorImagem: "imagem-noticias/placeholder.png", 
-        data: "October 12, 2025", 
-        imagem: "", 
-        legenda: "", 
-        audio: "", 
+        titulo: "Universidade Horizonte inaugura laboratório de comunicação para aprimorar aprendizado", 
+        autor: "Por Ricardo Santiago – Porto Alegre (RS)", 
+        autorImagem: "imagem-autores/laboratorioautor.png", 
+        data: "Publicado em 05/11/2025, 10h00 ",
+        imagem: "imagem-noticias/laboratorio.png", 
+        legenda: "Estudantes utilizam os recursos do novo laboratório de comunicação da Universidade Horizonte durante atividades práticas. (Foto: Marina Souza/Universidade Horizonte)", 
+        audio: "audios-noticia/laboratorioaudio.mp3", 
         legendaAudio: "", 
         video: "", 
         legendaVideo: "", 
-        resumo: "", 
-        conteudo: "", 
+        resumo: "Novo espaço oferece recursos tecnológicos para estimular a prática de comunicação e habilidades acadêmicas.", 
+        conteudo: `<p style="margin-bottom: 25px;">A <strong>Universidade Horizonte inaugurou, nesta terça-feira (02/11/2025), um moderno laboratório de comunicação</strong>, destinado a apoiar o aprendizado de estudantes de diferentes cursos. O espaço visa proporcionar experiências práticas e inovadoras, integrando teoria e prática de forma dinâmica.</p>
+
+<p style="margin-bottom: 25px;">O laboratório conta com <strong>estúdios de gravação, equipamentos de áudio e vídeo, softwares de edição profissional e salas interativas</strong> para apresentações. Entre os primeiros usuários estão estudantes como <strong>Lucas Almeida, 21 anos</strong>, e <strong>Júlia Fernandes, 22 anos</strong>, que destacaram a importância do laboratório para o desenvolvimento de habilidades de comunicação e expressão.</p>
+
+<p style="margin-bottom: 25px;">Segundo a coordenadora do curso de Comunicação Social, Patrícia Lima, o espaço foi planejado para <strong>atender diferentes demandas acadêmicas</strong>, desde produção de conteúdo multimídia até apresentações e simulações. <strong>"Nosso objetivo é oferecer um ambiente que estimule a criatividade, a prática e o aprendizado efetivo, preparando os alunos para o mercado de trabalho"</strong>, explicou Patrícia.</p>
+
+<p style="margin-bottom: 25px;">O laboratório também funcionará como <strong>espaço de pesquisa e inovação</strong>, permitindo que professores e alunos desenvolvam projetos experimentais, workshops e atividades colaborativas.</p>
+
+<p style="margin-bottom: 25px;">A inauguração do laboratório de comunicação da Universidade Horizonte <strong>reforça o compromisso da instituição com a educação de qualidade, inovação e preparação prática</strong> dos estudantes, promovendo um ambiente acadêmico mais interativo e dinâmico.</p>`,
         categoria: ""
     },
     {
         id: 16, 
-        titulo: "Placeholder", 
-        autor: "John Doe", 
-        autorImagem: "imagem-noticias/placeholder.png", 
-        data: "October 12, 2025", 
-        imagem: "", 
-        legenda: "", 
-        audio: "", 
+        titulo: "Universidade EcoVida desenvolve plástico biodegradável inovador", 
+        autor: "Por Rafael Costa – São Paulo (SP)", 
+        autorImagem: "imagem-autores/plasticoautor.png", 
+        data: "Publicado em 03/11/2025, 10h00 ", 
+        imagem: "imagem-noticias/plastico.png", 
+        legenda: "Pesquisadores e estudantes da Universidade EcoVida apresentam o novo plástico biodegradável desenvolvido no laboratório da instituição. (Foto: Luiza Ferreira/Universidade EcoVida)", 
+        audio: "audios-noticia/plasticoaudio.mp3", 
         legendaAudio: "", 
         video: "", 
         legendaVideo: "", 
-        resumo: "", 
-        conteudo: "", 
+        resumo: "Projeto visa sustentabilidade e promete impacto positivo no Brasil e no mundo com a redução do uso de plásticos convencionais.", 
+        conteudo: `<p style="margin-bottom: 25px;">Pesquisadores da <strong>Universidade EcoVida anunciaram, nesta segunda-feira (03/11/2025), o desenvolvimento de um plástico biodegradável de alta resistência</strong>, com potencial para reduzir significativamente o impacto ambiental e contribuir para soluções sustentáveis no Brasil e no mundo.</p>
+
+<p style="margin-bottom: 25px;">O projeto é coordenado pelos pesquisadores <strong>Dr. Felipe Martins e Dra. Carolina Almeida</strong>, que lideram uma equipe de estudantes de Engenharia Química e Biotecnologia. Segundo Felipe Martins, o <strong>novo plástico é produzido a partir de matérias-primas naturais</strong> e possui capacidade de decomposição rápida sem prejudicar o meio ambiente.</p>
+
+<p style="margin-bottom: 25px;">Dra. Carolina Almeida destacou que o desenvolvimento do plástico é resultado de <strong>anos de pesquisa aplicada e testes laboratoriais rigorosos</strong>. <strong>"Nosso objetivo é criar alternativas sustentáveis aos plásticos tradicionais, que causem menor impacto ambiental e possam ser utilizados em diversos setores, desde embalagens até produtos industriais"</strong>, explicou Carolina.</p>
+
+<p style="margin-bottom: 25px;">O projeto também envolve a <strong>participação de estudantes de graduação e pós-graduação</strong>, que contribuem com experimentos, análises de durabilidade e testes de biodegradabilidade. A universidade planeja <strong>parcerias com empresas para produção em escala</strong> e expansão do uso do material no mercado nacional e internacional.</p>
+
+<p style="margin-bottom: 25px;">Com a criação do plástico biodegradável, a Universidade EcoVida <strong>reforça seu compromisso com inovação, sustentabilidade e responsabilidade ambiental</strong>, oferecendo soluções práticas que podem transformar a indústria de plásticos e gerar impactos positivos para o planeta.</p>`, 
         categoria: ""
     },
     {
         id: 17, 
-        titulo: "Placeholder", 
-        autor: "John Doe", 
-        autorImagem: "imagem-noticias/placeholder.png", 
-        data: "October 12, 2025", 
-        imagem: "", 
-        legenda: "", 
-        audio: "", 
+        titulo: "Universitários enfrentam dificuldades com procrastinação e entrega de atividades", 
+        autor: "Por Ana Carolina Silva – Belo Horizonte (MG)", 
+        autorImagem: "imagem-autores/procrastinacaoautor.png", 
+        data: "Publicado em 04/11/2025, 13h00 ", 
+        imagem: "imagem-noticias/procrastinacao.png", 
+        legenda: "Estudantes da Universidade Central do Saber trabalham em suas atividades acadêmicas enquanto enfrentam desafios relacionados à procrastinação. (Foto: Lucas Ferreira/Universidade Central do Saber)", 
+        audio: "audios-noticia/procrastinacaoaudio.mp3", 
         legendaAudio: "", 
         video: "", 
         legendaVideo: "", 
-        resumo: "", 
-        conteudo: "", 
+        resumo: "Estudantes relatam atrasos e dificuldades de compreensão, impactando desempenho acadêmico.", 
+        conteudo: `<p style="margin-bottom: 25px;"><strong>Pesquisas internas da Universidade Central do Saber indicam que muitos estudantes têm enfrentado problemas relacionados à procrastinação e à dificuldade de cumprir prazos acadêmicos</strong>. A situação tem afetado a entrega de trabalhos e a compreensão de conteúdos, exigindo atenção de docentes e orientadores.</p>
+
+<p style="margin-bottom: 25px;">Segundo levantamento realizado pelo <strong>Núcleo de Apoio Acadêmico da universidade, cerca de 60% dos alunos entrevistados relataram que adiam tarefas importantes</strong>, muitas vezes acumulando atividades para o último momento. Entre eles estão estudantes como <strong>Mariana Lopes, 21 anos</strong>, e <strong>João Vitor Almeida, 22 anos</strong>, que apontaram a falta de planejamento e excesso de demandas como principais causas do atraso.</p>
+
+<p style="margin-bottom: 25px;">Professora coordenadora do curso de Psicologia, Fernanda Costa, explica que a <strong>procrastinação pode comprometer o aprendizado</strong>. <strong>"Muitos alunos sentem dificuldade para organizar o tempo e priorizar tarefas, o que gera ansiedade e impacta a qualidade do trabalho. É importante oferecer ferramentas de gestão de tempo e apoio pedagógico"</strong>, afirma Fernanda.</p>
+
+<p style="margin-bottom: 25px;">A universidade tem promovido <strong>workshops de gestão do tempo, mentorias e atividades de acompanhamento individual</strong> para ajudar os estudantes a desenvolver hábitos mais produtivos. Além disso, docentes têm adotado <strong>estratégias de avaliação contínua</strong> para reduzir a sobrecarga de prazos concentrados.</p>
+
+<p style="margin-bottom: 25px;">A procrastinação universitária é um <strong>desafio recorrente, mas iniciativas de orientação e acompanhamento pedagógico</strong> podem ajudar os estudantes a melhorarem o planejamento, a compreensão das atividades e a entrega de trabalhos dentro do prazo, promovendo maior equilíbrio entre estudo e bem-estar.</p>`, 
         categoria: ""
     },
     {
         id: 18, 
-        titulo: "Placeholder", 
-        autor: "John Doe", 
-        autorImagem: "imagem-noticias/placeholder.png", 
-        data: "October 12, 2025", 
-        imagem: "", 
-        legenda: "", 
-        audio: "", 
+        titulo: "Universidade Nova Esperança inaugura sala de apoio a estudantes com burnout e questões psicológicas", 
+        autor: "Por Mariana Almeida – Curitiba (PR)", 
+        autorImagem: "imagem-autores/psicologoautor.png", 
+        data: "Publicado em 05/11/2025, 15h00 ", 
+        imagem: "imagem-noticias/psicologo.png", 
+        legenda: "Estudantes participam de atividades de relaxamento na nova sala de apoio psicológico da Universidade Nova Esperança. (Foto: Ana Luiza/Universidade Nova Esperança)", 
+        audio: "audios-noticia/psicologoaudio.mp3", 
         legendaAudio: "", 
         video: "", 
         legendaVideo: "", 
-        resumo: "", 
-        conteudo: "", 
+        resumo: "Espaço oferece acompanhamento psicológico e atividades voltadas ao bem-estar emocional dos alunos.", 
+        conteudo: `<p style="margin-bottom: 25px;">A <strong>Universidade Nova Esperança, em parceria com o curso de Psicologia, inaugurou nesta quarta-feira (05/11/2025) uma sala dedicada ao apoio de estudantes</strong> que enfrentam burnout, estresse e outras questões psicológicas. O projeto busca oferecer acompanhamento especializado e promover saúde mental dentro do campus.</p>
+
+<p style="margin-bottom: 25px;">A sala de apoio contará com <strong>psicólogos, estagiários do curso de Psicologia e espaços preparados para atendimentos individuais, grupos de conversa e atividades de relaxamento</strong>. Entre os primeiros beneficiados estão alunos como <strong>Letícia Santos, 21 anos</strong>, e <strong>Felipe Moura, 22 anos</strong>, que destacaram a importância do espaço para lidar com pressão acadêmica e demandas pessoais.</p>
+
+<p style="margin-bottom: 25px;">Segundo a coordenadora do projeto, Dra. Carolina Lima, o objetivo é <strong>criar um ambiente seguro e acolhedor</strong>. <strong>"Identificamos que muitos estudantes sofrem com sobrecarga de atividades e problemas emocionais. Essa sala é um espaço de escuta, orientação e prevenção, auxiliando na saúde mental e no desempenho acadêmico"</strong>, explicou Carolina.</p>
+
+<p style="margin-bottom: 25px;">Além dos atendimentos, a sala oferecerá <strong>workshops de gestão emocional, técnicas de relaxamento e palestras sobre bem-estar</strong> e equilíbrio entre vida acadêmica e pessoal. O projeto também promove <strong>integração entre alunos, docentes e profissionais de saúde</strong>, fortalecendo a rede de apoio do campus.</p>
+
+<p style="margin-bottom: 25px;">A criação da sala de apoio na Universidade Nova Esperança <strong>demonstra compromisso com a saúde mental e emocional dos estudantes</strong>, oferecendo ferramentas para prevenção de burnout e outros problemas psicológicos, contribuindo para um ambiente acadêmico mais saudável e equilibrado.</p>`,
         categoria: ""
     },
     {
         id: 19, 
-        titulo: "Placeholder", 
-        autor: "John Doe", 
+        titulo: "Campeonato de skate na Universidade Cidade Alta promove visibilidade do esporte na cidade", 
+        autor: "Por Felipe Souza – Porto Alegre (RS)", 
         autorImagem: "imagem-noticias/placeholder.png", 
-        data: "October 12, 2025", 
-        imagem: "", 
-        legenda: "", 
+        data: "Publicado em 07/11/2025, 17h00 ", 
+        imagem: "imagem-noticias/skate.png", 
+        legenda: "Atletas realizam manobras durante o Campeonato de Skate na Universidade Cidade Alta, diante de público de estudantes e comunidade local. (Foto: Rafael Lima/Universidade Cidade Alta)", 
         audio: "", 
         legendaAudio: "", 
         video: "", 
         legendaVideo: "", 
-        resumo: "", 
-        conteudo: "", 
+        resumo: "Evento reuniu atletas universitários e da comunidade local em competições emocionantes.", 
+        conteudo: `<p style="margin-bottom: 25px;">A <strong>quadra da Universidade Cidade Alta foi palco, neste sábado (07/11/2025), do Campeonato Universitário de Skate</strong>, evento que teve como objetivo valorizar a prática do esporte, promover integração entre estudantes e a comunidade, e aumentar a visibilidade do skate na cidade.</p>
+
+<p style="margin-bottom: 25px;">O campeonato contou com a <strong>participação de atletas universitários e de jovens da comunidade local</strong>, incluindo nomes como <strong>Lucas "Flip" Ribeiro, 21 anos</strong>, e <strong>Ana Paula "Grind" Mendes, 22 anos</strong>, que se destacaram em diferentes modalidades e manobras. O evento teve categorias amadoras e profissionais, proporcionando <strong>competição saudável e incentivando a prática esportiva</strong>.</p>
+
+<p style="margin-bottom: 25px;">Segundo a organização, o objetivo foi <strong>criar um espaço seguro e estruturado para a prática do skate</strong>, além de incentivar o interesse pelo esporte entre novos praticantes. <strong>"Queremos mostrar que o skate é um esporte completo, que envolve técnica, criatividade e disciplina, e que pode ser praticado em segurança dentro da universidade e na cidade"</strong>, afirmou Camila Souza, coordenadora do evento.</p>
+
+<p style="margin-bottom: 25px;">A ação também contou com <strong>música ao vivo, workshops de manobras e palestras sobre segurança e cultura do skate</strong>, fortalecendo a integração entre atletas, estudantes e moradores locais.</p>
+
+<p style="margin-bottom: 25px;">O Campeonato de Skate na Universidade Cidade Alta <strong>destacou o potencial do esporte para promover saúde, lazer e integração social</strong>, aumentando sua visibilidade e incentivando a prática entre jovens da cidade e universitários.</p>`, 
         categoria: ""
     },
     {
         id: 20, 
-        titulo: "Placeholder", 
-        autor: "John Doe", 
+        titulo: "Carro da Red Bull distribui energéticos no campus da Universidade Metropolitana", 
+        autor: "Por Rafael Martins – São Paulo (SP)", 
         autorImagem: "imagem-noticias/placeholder.png", 
-        data: "October 12, 2025", 
-        imagem: "", 
-        legenda: "", 
+        data: "Publicado em 06/11/2025, 11h30 ", 
+        imagem: "imagem-noticias/redbull.png", 
+        legenda: "Estudantes recebem energéticos do carro da Red Bull estacionado no campus da Universidade Metropolitana. (Foto: Lucas Ferreira/Universidade Metropolitana)", 
         audio: "", 
         legendaAudio: "", 
         video: "", 
         legendaVideo: "", 
-        resumo: "", 
-        conteudo: "", 
+        resumo: "Ação visa descontrair estudantes durante o período de provas e promover interação com a marca.", 
+        conteudo: `<p style="margin-bottom: 25px;">Estudantes da <strong>Universidade Metropolitana receberam, nesta quinta-feira (06/11/2025), energéticos distribuídos por um carro da empresa Red Bull</strong> estacionado no campus. A ação teve como objetivo proporcionar momentos de descontração e incentivo durante a intensa época de provas.</p>
+
+<p style="margin-bottom: 25px;">O carro da Red Bull permaneceu em <strong>pontos estratégicos do campus, oferecendo energéticos e interagindo com os estudantes</strong>. Entre os beneficiados estavam alunos como <strong>Mariana Silva, 21 anos</strong>, e <strong>João Pedro Costa, 22 anos</strong>, que aprovaram a iniciativa. <strong>"Foi um momento divertido e motivador. A ação trouxe energia e ajudou a aliviar o estresse das provas"</strong>, comentou Mariana.</p>
+
+<p style="margin-bottom: 25px;">Segundo a coordenação de marketing da Red Bull, a campanha busca <strong>aproximar a marca do público jovem e universitário</strong>, promovendo experiências positivas e memoráveis. Além da distribuição de bebidas, a equipe incentivou <strong>atividades leves e interações com brindes</strong>, tornando a ação uma pausa bem-vinda durante a rotina intensa de estudos.</p>
+
+<p style="margin-bottom: 25px;">A universidade apoiou a iniciativa, destacando a <strong>importância de momentos de descontração e socialização</strong>, especialmente em períodos de grande pressão acadêmica, como provas e entregas de trabalhos.</p>
+
+<p style="margin-bottom: 25px;">A ação do carro da Red Bull no campus da Universidade Metropolitana <strong>proporcionou aos estudantes alívio do estresse e momentos de descontração</strong>, reforçando a importância de iniciativas que promovam bem-estar e interação durante períodos de alta demanda acadêmica.</p>`, 
         categoria: ""
     },
      {
         id: 21, 
-        titulo: "Placeholder", 
-        autor: "John Doe", 
+        titulo: "Universidade Capital do Saber oferece vagas de emprego em parceria com empresas", 
+        autor: "Por Laura Fernandes – Brasília (DF)", 
         autorImagem: "imagem-noticias/placeholder.png", 
-        data: "October 12, 2025", 
-        imagem: "", 
-        legenda: "", 
+        data: "Publicado em 08/11/2025, 14h00 ", 
+        imagem: "imagem-noticias/vagas.png", 
+        legenda: "Alunos escaneiam QR Codes nos cartazes distribuídos pelo campus da Universidade Capital do Saber para acessar vagas de estágio e empregos. (Foto: Mariana Oliveira/Universidade Capital do Saber)", 
         audio: "", 
         legendaAudio: "", 
         video: "", 
         legendaVideo: "", 
-        resumo: "", 
-        conteudo: "", 
+        resumo: "Estágios e contratações CLT são disponibilizados com cadastro facilitado por QR Codes espalhados no campus", 
+        conteudo: `<p style="margin-bottom: 25px;">A <strong>Universidade Capital do Saber lançou, nesta sexta-feira (08/11/2025), um programa de oportunidades de emprego em parceria com empresas de diversos setores</strong>. Estudantes e ex-alunos poderão concorrer a vagas de estágio e contratos CLT, com facilidade para cadastro por meio de QR Codes distribuídos pelo campus.</p>
+
+<p style="margin-bottom: 25px;">O projeto visa <strong>aproximar os alunos do mercado de trabalho e oferecer oportunidades práticas de desenvolvimento profissional</strong>. Entre os primeiros interessados estão estudantes como <strong>Lucas Moura, 21 anos</strong>, e <strong>Camila Ribeiro, 22 anos</strong>, que elogiaram a iniciativa. <strong>"É muito prático: escaneamos o QR Code e já conseguimos nos cadastrar nas vagas. Isso ajuda a economizar tempo e facilita o acesso a oportunidades importantes"</strong>, comentou Lucas.</p>
+
+<p style="margin-bottom: 25px;">Segundo a coordenadora de carreiras da universidade, Patrícia Lima, a ação foi pensada para <strong>integrar tecnologia e praticidade</strong>. <strong>"Queremos tornar o processo de acesso às vagas mais rápido e dinâmico, incentivando os estudantes a se candidatarem e se prepararem para o mercado de trabalho"</strong>, explicou Patrícia.</p>
+
+<p style="margin-bottom: 25px;">Além disso, os <strong>cartazes espalhados pelo campus contêm informações detalhadas sobre as empresas, os tipos de contratação e as áreas de atuação</strong>, tornando a experiência intuitiva e direta. A parceria envolve empresas de <strong>tecnologia, comunicação, engenharia, administração e setores variados</strong>, garantindo diversidade de oportunidades.</p>
+
+<p style="margin-bottom: 25px;">A iniciativa da Universidade Capital do Saber <strong>demonstra compromisso com a formação profissional dos estudantes</strong>, promovendo acesso simplificado a vagas de emprego e estágio, além de incentivar a integração entre academia e mercado de trabalho.</p>`,
         categoria: ""
     },
 ]; 
