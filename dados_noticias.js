@@ -40,6 +40,22 @@ const dados_noticias = [
     },
      {
         id: 2, 
+        titulo: "Universidade do Saber realiza campeonato de xadrez para alunos com autismo", 
+        autor: "Por Carla Mendes – São Paulo (SP)",
+        autorImagem: "imagem-autores/autismoautor.png", 
+        data: "22/10/2025, 14h30", 
+        imagem: "imagem-noticias/autismo.png",
+        legenda: "Participantes do Campeonato de Xadrez Inclusivo da Universidade do Saber durante as partidas, acompanhados por monitores especializados. (Foto: João Silva/Universidade do Saber)",
+        audio: "audios-noticia/audioautismo.mp3",
+        legendaAudio:"Entrevista com Ana Beatriz Santos, coordenadora do programa de inclusão, explicando a importância do xadrez para alunos com autismo.",
+        video: "video-noticia/videoautismo.mp4",
+        legendaVideo: "Alunos competem no Campeonato de Xadrez Inclusivo da Universidade do Saber e compartilham suas estratégias com professores e colegas.",
+        resumo: "Evento promove inclusão e diversidade, estimulando habilidades cognitivas e sociais dos participantes", 
+        conteudo: `A Universidade do Saber realizou, nesta terça-feira (21), o seu primeiro Campeonato de Xadrez Inclusivo, destinado a alunos com autismo. A iniciativa, promovida no campus central em São Paulo, teve como objetivo estimular a concentração, a estratégia e a interação social dos participantes, reforçando o compromisso da instituição com a inclusão e a valorização da diversidade.<br><br>O campeonato contou com a participação de vinte estudantes, acompanhados por monitores especializados em educação inclusiva. Entre os participantes, destacou-se Lucas Andrade, 19 anos, que conquistou o primeiro lugar após vencer partidas desafiadoras.<br><br>De acordo com Ana Beatriz Santos, coordenadora do programa de inclusão da universidade, o evento representa uma oportunidade única de reconhecer talentos e oferecer condições igualitárias para todos os alunos. "O xadrez não é apenas um jogo; é uma ferramenta que estimula habilidades cognitivas, promove paciência e incentiva a interação social, aspectos fundamentais para nossos estudantes com autismo", explicou Ana.<br><br>Além das partidas, o evento contou com palestras curtas sobre estratégias de xadrez e momentos de socialização, nos quais os alunos puderam compartilhar experiências e reflexões sobre o cotidiano acadêmico. A iniciativa recebeu apoio integral da direção da universidade e de professores voluntários de diversos cursos, consolidando a prática como modelo de inclusão no campus.<br><br>Ao término do campeonato, todos os participantes receberam medalhas de participação e certificados de reconhecimento, reforçando o compromisso da Universidade do Saber com a inclusão e a diversidade. A expectativa da instituição é transformar o evento em uma atividade anual, ampliando a participação de alunos de diferentes cursos e incentivando novas práticas inclusivas.`,  
+        categoria: ""
+    },
+    {
+        id: 2, 
         titulo: "Placeholder", 
         autor: "John Doe",
         autorImagem: "imagem-noticias/placeholder.png", 
@@ -53,9 +69,8 @@ const dados_noticias = [
         resumo: "", 
         conteudo: ``,   
         categoria: ""
-    }
-    
-];
+    } // ← FECHA A NOTÍCIA 2 CORRETAMENTE
+]; 
 
 // Identificador da notícia em destaque na página inicial
 const noticiaDestaqueId = 1;
