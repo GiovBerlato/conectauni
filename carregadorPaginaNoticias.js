@@ -108,16 +108,59 @@ if (noticia.audio && noticia.audio.trim()) {
 } else {
     audioSecao.style.display = 'none';
 }
+// 6. VÍDEO COM LEGENDA
+const videoElement = document.getElementById('noticia-video');
+const videoSecao = document.getElementById('video-secao');
 
-    // 6. Autor
-    const autorElement = document.getElementById('autor-nome');
-    if (noticia.autor && noticia.autor.trim()) {
-        autorElement.innerHTML = `<strong>${escapeHtml(noticia.autor)}</strong>`;
-    } else {
-        // Esconde a seção do autor se não tiver autor
-        document.querySelector('.noticia-secao-header').style.display = 'none';
-        document.querySelector('.noticia-autor-container').style.display = 'none';
+if (noticia.video && noticia.video.trim()) {
+    videoElement.querySelector('source').src = noticia.video;
+    videoElement.load();
+    
+    // ADICIONA LEGENDA SE EXISTIR
+    if (noticia.legendaVideo && noticia.legendaVideo.trim()) {
+        const container = document.createElement('div');
+        container.className = 'video-com-legenda';
+        
+        const legenda = document.createElement('p');
+        legenda.className = 'legenda-video';
+        legenda.textContent = noticia.legendaVideo;
+        
+        // LIMPA o container e adiciona vídeo + legenda
+        container.innerHTML = '';
+        container.appendChild(videoElement.cloneNode(true));
+        container.appendChild(legenda);
+        
+        // Substitui o vídeo original pelo container completo
+        videoElement.parentNode.replaceChild(container, videoElement);
     }
+} else {
+    videoSecao.style.display = 'none';
+}
 
+  // 6. AUTOR COM FOTO
+const autorElement = document.getElementById('autor-nome');
+const autorImagemElement = document.getElementById('autor-imagem');
+const autorSecao = document.querySelector('.noticia-secao-header');
+const autorContainer = document.querySelector('.noticia-autor-container');
+
+if (noticia.autor && noticia.autor.trim()) {
+    autorElement.innerHTML = `<strong>${escapeHtml(noticia.autor)}</strong>`;
+    
+    // CARREGA A IMAGEM DO AUTOR SE EXISTIR
+    if (noticia.autorImagem && noticia.autorImagem.trim()) {
+        autorImagemElement.src = noticia.autorImagem;
+        autorImagemElement.alt = `Foto de ${escapeHtml(noticia.autor)}`;
+        autorImagemElement.style.display = 'block';
+        console.log('Imagem do autor carregada:', noticia.autorImagem);
+    } else {
+        // Se não tem imagem, esconde a imagem ou usa padrão
+        autorImagemElement.style.display = 'none';
+        console.log('Nenhuma imagem do autor definida');
+    }
+} else {
+    // Esconde a seção do autor se não tiver autor
+    autorSecao.style.display = 'none';
+    autorContainer.style.display = 'none';
+}
     console.log('Notícia carregada:', noticia.titulo);
 });

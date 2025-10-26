@@ -951,3 +951,41 @@ img, .card-imagem {
     width: 90%;
     max-width: 500px;
 }
+/* VÍDEO COM LEGENDA */
+.legenda-video {
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+    text-align: center;
+    margin-top: 8px;
+    padding-bottom: 10px;
+    line-height: 1.4;
+}
+
+.video-com-legenda {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.video-com-legenda video {
+    width: 70%; /* Alterei de max-width para width */
+    max-width: 800px; /* Adicionei limite máximo */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* CELULAR */
+@media (max-width: 768px) {
+    .video-com-legenda video {
+        width: 90%; /* Maior no celular */
+        max-width: none; /* Remove limite no mobile */
+    }
+}
+
+/* CELULAR PEQUENO */
+@media (max-width: 480px) {
+    .video-com-legenda video {
+        width: 95%; /* Quase a tela toda */
+    }
+}
