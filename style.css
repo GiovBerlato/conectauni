@@ -1242,7 +1242,7 @@ body, header, footer, .card-noticia, .card-content, .noticia-destaque-imagem, .i
   width: calc(100% + 200px);
   max-width: none;
   margin-left: -100px;
-  height: 420px;
+  height: 820px;
   object-fit: cover;
   border-radius: 0;
 }

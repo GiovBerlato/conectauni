@@ -1,30 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Esportes</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <script>
-  (function(){
-    try {
-      var t = localStorage.getItem('site-theme'); // 'dark' ou 'light'
-      if (t === 'dark') document.documentElement.setAttribute('data-theme','dark');
-      else document.documentElement.removeAttribute('data-theme');
-    } catch(e) {}
-  })();
-</script>
+
+    <!-- CSS -->
     <link href="style.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="Imagem_FrontPage/Icone_site.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
-    <script src="injetorDeNoticias.js"></script>
-    <script src="dados_noticias.js"></script>
+
+    <!-- Scripts principais -->
+    <script src="dados_noticias.js" defer></script>
+    <script src="injetorDeNoticias.js" defer></script>
+    <script src="script.js" defer></script>
   </head>
+
   <body>
     <header>
       <div id="header-placeholder"></div>
     </header>
+    
+
+    <main class="container">
+      <h1 class="main-title">Esportes</h1>
+      <div class="noticias-grid" id="noticias-grid-esportes"></div>
+    </main>
+
+    <footer>
+      <div id="rodape-placeholder"></div>
+    </footer>
+
+    <!-- Script de filtragem de esportes -->
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      // Garante que o arquivo de dados foi carregado
+      if (typeof dados_noticias === "undefined") {
+        console.error("❌ dados_noticias.js não foi carregado!");
+        return;
+      }
+
+      const container = document.getElementById("noticias-grid-esportes");
+      if (!container) return;
+
+      // Função para detectar se é categoria 'esportes'
+      function contemEsportes(cat) {
+        if (!cat) return false;
+        if (Array.isArray(cat)) {
+          return cat.some(c => String(c).toLowerCase().trim() === "esportes");
+        }
+        const lista = String(cat).toLowerCase().split(",");
+        return lista.some(c => c.trim() === "esportes");
+      }
+
+      // Filtra as notícias da categoria 'esportes'
+      const noticiasFiltradas = dados_noticias.filter(n => contemEsportes(n.categoria));
+
+      // Limpa qualquer conteúdo antigo
+      container.innerHTML = "";
+
+      if (noticiasFiltradas.length === 0) {
+        container.innerHTML = "<p style='text-align:center; color:#888;'>Nenhuma notícia de esportes encontrada.</p>";
+        console.warn("⚠️ Nenhuma notícia de esportes encontrada.");
+        return;
+      }
+
+      // Cria cards no mesmo formato das outras páginas
+      noticiasFiltradas.forEach(noticia => {
+        const noticiaHTML = `
+          <article class="card-noticia">
+            <img src="${noticia.imagem}" alt="${noticia.titulo}" class="card-imagem">
+            <div class="card-content">
+              <h2 class="card-titulo">${noticia.titulo}</h2>
+              <p class="card-descricao">${noticia.resumo || ""}</p>
+              <a href="templateNoticia.html?id=${noticia.id}" class="card-link">Ler mais</a>
+            </div>
+          </article>
+        `;
+        container.insertAdjacentHTML("beforeend", noticiaHTML);
+      });
+    });
+  </script>
   </body>
 </html>
