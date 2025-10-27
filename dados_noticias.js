@@ -44,7 +44,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">A universidade apoiou a iniciativa, autorizando a instalação de uma pequena casinha para Barnabé em área segura do campus e fornecendo um <strong>crachá simbólico</strong> para identificação do mascote. A medida ganhou destaque nas redes sociais da instituição, recebendo elogios da comunidade acadêmica e da imprensa local.</p>
 
 <p style="margin-bottom: 25px;">Barnabé se tornou mais que um mascote: é um <strong>símbolo de união, acolhimento e bem-estar</strong> no campus da Universidade Estrela do Saber, mostrando como pequenos gestos podem transformar o ambiente universitário em um espaço mais humano e acolhedor.</p>`,
-        categoria: "outros"
+        categoria: "Bem-estar"
     },
      {
         id: 2, 
@@ -68,7 +68,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">Além das partidas, o evento contou com <strong>palestras curtas sobre estratégias de xadrez</strong> e momentos de socialização, nos quais os alunos puderam compartilhar experiências e reflexões sobre o cotidiano acadêmico. A iniciativa recebeu apoio integral da direção da universidade e de professores voluntários de diversos cursos.</p>
 
 <p style="margin-bottom: 25px;">Ao término do campeonato, todos os participantes receberam <strong>medalhas de participação e certificados de reconhecimento</strong>, reforçando o compromisso da Universidade do Saber com a inclusão e a diversidade. A expectativa da instituição é transformar o evento em uma atividade anual.</p>`,        
-        categoria: "campeonatos"
+        categoria: "Esportes"
     },
     {
         id: 3, 
@@ -92,7 +92,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">Durante a competição, as equipes precisaram superar desafios de <strong>navegação autônoma, resolução de problemas e eficiência energética</strong>. O robô da UTI não apenas completou todas as tarefas com precisão, mas também apresentou soluções criativas para problemas inesperados.</p>
 
 <p style="margin-bottom: 25px;">Com a vitória, a Universidade Tecnológica de Inovação confirma seu <strong>protagonismo em inovação e sustentabilidade</strong> no cenário internacional. A equipe planeja continuar desenvolvendo aprimoramentos para futuras competições.</p>`,        
-        categoria: "campeonatos" 
+        categoria: "Esportes" 
     },
     {
         id: 4, 
@@ -116,7 +116,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">O concurso contou com <strong>diferentes níveis de bolsas, variando de 25% a 100%</strong>, de acordo com o resultado obtido por cada candidato. A divulgação dos aprovados está prevista para o dia 28 de outubro, com matrículas previstas ainda este mês.</p>
 
 <p style="margin-bottom: 25px;">A universidade também disponibilizou <strong>materiais de estudo online</strong>, garantindo acesso equitativo e ajudando os candidatos a se prepararem da melhor forma possível. O programa reforça o compromisso da instituição com a democratização do ensino superior.</p>`,        
-         categoria: "bolsas"
+         categoria: "Bolsas"
      },
      {
  
@@ -141,7 +141,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">O laboratório também funcionará como <strong>centro de pesquisa em acessibilidade</strong>, permitindo que professores e estudantes desenvolvam novas tecnologias assistivas, além de capacitar monitores e docentes para o atendimento personalizado.</p>
 
 <p style="margin-bottom: 25px;">A inauguração do laboratório reforça o <strong>compromisso da universidade com a inclusão e a diversidade</strong>, proporcionando oportunidades de aprendizado para alunos com deficiência visual e tornando-se referência nacional em tecnologia assistiva.</p>`,        
-        categoria: "outros"
+        categoria: "Inovação"
 },
 {
         id: 6, 
@@ -165,7 +165,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">O evento contou ainda com <strong>apresentações de pôsteres, demonstrações práticas e sessões de perguntas e respostas</strong> com professores e especialistas convidados, estimulando a interação e o aprendizado coletivo entre todos os participantes.</p>
 
 <p style="margin-bottom: 25px;">A Feira de Projetos Acadêmicos reforça o <strong>compromisso da instituição com a pesquisa e a inovação</strong>, consolidando-se como uma iniciativa fundamental para a formação integral dos alunos e o desenvolvimento de soluções criativas para desafios contemporâneos.</p>`,        
-        categoria: "outros"
+        categoria: "Inovação"
     },
     {
         id: 7, 
@@ -189,7 +189,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">Apesar do susto, a celebração manteve seu <strong>clima festivo e seguro</strong>, com música, iluminação adequada e protocolos de segurança, garantindo que os formandos pudessem comemorar a conquista de forma memorável.</p>
 
 <p style="margin-bottom: 25px;">A formatura reforçou o <strong>comprometimento da instituição em proporcionar experiências memoráveis</strong> para seus alunos, demonstrando capacidade de superação mesmo diante de imprevistos e celebrando a dedicação dos formandos ao longo do curso.</p>`,        
-       categoria: "outros"
+       categoria: "Entretenimento"
     },
     {
         id: 8, 
@@ -213,7 +213,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">Além do <strong>reconhecimento regional</strong>, o título garante à Universidade São Lucas vagas nas competições estaduais e nacionais, consolidando ainda mais a tradição esportiva da instituição. A torcida estudantil foi peça fundamental, apoiando massivamente a equipe em todas as partidas e celebrando cada conquista.</p>
 
 <p style="margin-bottom: 25px;">Esta vitória no Inter Atlética reforça o <strong>compromisso institucional com o esporte universitário</strong>, promovendo valores como trabalho em equipe, disciplina e desenvolvimento integral dos alunos através da prática esportiva de alto rendimento.</p>`,   
-        categoria: "esportes"
+        categoria: "Esportes"
     },
     {
         id: 9, 
@@ -237,7 +237,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">O projeto ganhou <strong>destaque dentro da universidade</strong>, atraindo atenção de professores e alunos de diferentes cursos. Alguns docentes até sugerem temas de matérias para novas músicas, tornando a iniciativa uma forma interativa de reforçar o aprendizado em diversas disciplinas.</p>
 
 <p style="margin-bottom: 25px;">O grupo de estudo da Universidade Rio Verde mostra como <strong>criatividade e educação podem caminhar juntas</strong>, oferecendo aos estudantes uma experiência de aprendizado diferente, divertida e eficaz. A expectativa é que o projeto inspire outras turmas e universidades a adotarem iniciativas semelhantes.</p>`,   
-        categoria: "outros"
+        categoria: "Entretenimento"
     },
     {
         id: 10, 
@@ -261,7 +261,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">O projeto também busca <strong>envolver a comunidade acadêmica</strong>, permitindo que outros cursos e alunos interessados participem das atividades e aprendam sobre <strong>agricultura urbana e sustentabilidade</strong>.</p>
 
 <p style="margin-bottom: 25px;">A horta experimental da Universidade Verde Campo representa um <strong>importante recurso pedagógico</strong> para os estudantes de Engenharia Agronômica, incentivando a prática, a pesquisa e o desenvolvimento de habilidades essenciais para o setor agrícola e sustentável.</p>`, 
-        categoria: "outros"
+        categoria: "Inovação"
     },
     {
         id: 11, 
@@ -285,7 +285,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">O programa inclui <strong>cursos ministrados em inglês, acompanhamento acadêmico personalizado e apoio logístico</strong> para os estudantes durante o período no exterior. Além disso, os alunos selecionados receberão <strong>suporte financeiro parcial ou integral</strong>, dependendo do desempenho no concurso de bolsas.</p>
 
 <p style="margin-bottom: 25px;">O novo programa de intercâmbio da Universidade Internacional do Saber reforça o <strong>compromisso da instituição com a mobilidade acadêmica e internacionalização</strong>, formando profissionais capacitados para atuar globalmente. A expectativa é expandir o programa nos próximos anos, beneficiando cada vez mais estudantes.</p>`,
-        categoria: "outros"
+        categoria: "Inovação"
     },
     {
         id: 12, 
@@ -309,7 +309,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">A substituição das lâmpadas também faz parte de um <strong>plano mais amplo da universidade para reduzir a pegada de carbono</strong> e tornar o campus mais sustentável. O investimento incluiu planejamento, instalação e ajustes elétricos para garantir máxima eficiência energética e conforto para alunos e professores.</p>
 
 <p style="margin-bottom: 25px;">Com a adoção das lâmpadas LED, a Universidade Sol Nascente demonstra <strong>compromisso com sustentabilidade, eficiência energética e bem-estar</strong> de sua comunidade acadêmica, tornando o campus mais iluminado, seguro e ecologicamente responsável.</p>`,
-        categoria: "outros"
+        categoria: "Inovação"
     },
     {
         id: 13, 
@@ -333,7 +333,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">A vitória do campeonato regional também garante à Universidade Digital Elite <strong>participação em competições estaduais e nacionais de e-sports</strong>, além de reforçar a tradição da instituição no cenário universitário de jogos eletrônicos.</p>
 
 <p style="margin-bottom: 25px;">O título conquistado pela Universidade Digital Elite no campeonato de League of Legends <strong>reafirma o crescimento dos e-sports no ambiente acadêmico</strong> e destaca o compromisso da universidade em apoiar atividades extracurriculares que desenvolvem habilidades estratégicas, trabalho em equipe e pensamento crítico nos estudantes.</p>`, 
-        categoria: "campeonatos"
+        categoria: "Esportes"
     },
     {
         id: 14, 
@@ -357,7 +357,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">Além do reconhecimento regional, a vitória garante à Universidade Atlântica <strong>participação em competições nacionais</strong>, reforçando a tradição esportiva da instituição e incentivando a prática de esportes entre alunas de diferentes cursos.</p>
 
 <p style="margin-bottom: 25px;">O título conquistado pelo time feminino de vôlei da Universidade Atlântica no Interuniversidades Sul <strong>reforça o compromisso da instituição com o esporte</strong>, promovendo desenvolvimento físico, trabalho em equipe e valorização das atletas no ambiente acadêmico.</p>`,
-        categoria: "esportes"
+        categoria: "Esportes"
     },
     {
         id: 15, 
@@ -381,7 +381,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">O laboratório também funcionará como <strong>espaço de pesquisa e inovação</strong>, permitindo que professores e alunos desenvolvam projetos experimentais, workshops e atividades colaborativas.</p>
 
 <p style="margin-bottom: 25px;">A inauguração do laboratório de comunicação da Universidade Horizonte <strong>reforça o compromisso da instituição com a educação de qualidade, inovação e preparação prática</strong> dos estudantes, promovendo um ambiente acadêmico mais interativo e dinâmico.</p>`,
-        categoria: "outros"
+        categoria: "Inovação"
     },
     {
         id: 16, 
@@ -405,7 +405,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">O projeto também envolve a <strong>participação de estudantes de graduação e pós-graduação</strong>, que contribuem com experimentos, análises de durabilidade e testes de biodegradabilidade. A universidade planeja <strong>parcerias com empresas para produção em escala</strong> e expansão do uso do material no mercado nacional e internacional.</p>
 
 <p style="margin-bottom: 25px;">Com a criação do plástico biodegradável, a Universidade EcoVida <strong>reforça seu compromisso com inovação, sustentabilidade e responsabilidade ambiental</strong>, oferecendo soluções práticas que podem transformar a indústria de plásticos e gerar impactos positivos para o planeta.</p>`, 
-        categoria: "outros"
+        categoria: "Inovação"
     },
     {
         id: 17, 
@@ -429,7 +429,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">A universidade tem promovido <strong>workshops de gestão do tempo, mentorias e atividades de acompanhamento individual</strong> para ajudar os estudantes a desenvolver hábitos mais produtivos. Além disso, docentes têm adotado <strong>estratégias de avaliação contínua</strong> para reduzir a sobrecarga de prazos concentrados.</p>
 
 <p style="margin-bottom: 25px;">A procrastinação universitária é um <strong>desafio recorrente, mas iniciativas de orientação e acompanhamento pedagógico</strong> podem ajudar os estudantes a melhorarem o planejamento, a compreensão das atividades e a entrega de trabalhos dentro do prazo, promovendo maior equilíbrio entre estudo e bem-estar.</p>`, 
-        categoria: "outros"
+        categoria: "Entretenimento"
     },
     {
         id: 18, 
@@ -453,7 +453,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">Além dos atendimentos, a sala oferecerá <strong>workshops de gestão emocional, técnicas de relaxamento e palestras sobre bem-estar</strong> e equilíbrio entre vida acadêmica e pessoal. O projeto também promove <strong>integração entre alunos, docentes e profissionais de saúde</strong>, fortalecendo a rede de apoio do campus.</p>
 
 <p style="margin-bottom: 25px;">A criação da sala de apoio na Universidade Nova Esperança <strong>demonstra compromisso com a saúde mental e emocional dos estudantes</strong>, oferecendo ferramentas para prevenção de burnout e outros problemas psicológicos, contribuindo para um ambiente acadêmico mais saudável e equilibrado.</p>`,
-        categoria: "outros"
+        categoria: "Bem-estar"
     },
     {
         id: 19, 
@@ -477,7 +477,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">A ação também contou com <strong>música ao vivo, workshops de manobras e palestras sobre segurança e cultura do skate</strong>, fortalecendo a integração entre atletas, estudantes e moradores locais.</p>
 
 <p style="margin-bottom: 25px;">O Campeonato de Skate na Universidade Cidade Alta <strong>destacou o potencial do esporte para promover saúde, lazer e integração social</strong>, aumentando sua visibilidade e incentivando a prática entre jovens da cidade e universitários.</p>`, 
-        categoria: "esportes"
+        categoria: "Esportes"
     },
     {
         id: 20, 
@@ -501,7 +501,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">A universidade apoiou a iniciativa, destacando a <strong>importância de momentos de descontração e socialização</strong>, especialmente em períodos de grande pressão acadêmica, como provas e entregas de trabalhos.</p>
 
 <p style="margin-bottom: 25px;">A ação do carro da Red Bull no campus da Universidade Metropolitana <strong>proporcionou aos estudantes alívio do estresse e momentos de descontração</strong>, reforçando a importância de iniciativas que promovam bem-estar e interação durante períodos de alta demanda acadêmica.</p>`, 
-        categoria: "outros"
+        categoria: "Entretenimento"
     },
      {
         id: 21, 
@@ -525,7 +525,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">Além disso, os <strong>cartazes espalhados pelo campus contêm informações detalhadas sobre as empresas, os tipos de contratação e as áreas de atuação</strong>, tornando a experiência intuitiva e direta. A parceria envolve empresas de <strong>tecnologia, comunicação, engenharia, administração e setores variados</strong>, garantindo diversidade de oportunidades.</p>
 
 <p style="margin-bottom: 25px;">A iniciativa da Universidade Capital do Saber <strong>demonstra compromisso com a formação profissional dos estudantes</strong>, promovendo acesso simplificado a vagas de emprego e estágio, além de incentivar a integração entre academia e mercado de trabalho.</p>`,
-        categoria: "outros"
+        categoria: "Inovação"
     },
 ]; 
 

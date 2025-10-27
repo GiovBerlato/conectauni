@@ -1123,10 +1123,10 @@ img, .card-imagem {
   box-shadow: 0 8px 20px rgba(43,122,191,0.08);
 }
 .category-btn.active {
-  background: #2b7abf; /* seu azul */
+  background: #522e12; /* seu azul */
   color: #fff;
-  border-color: rgba(43,122,191,0.9);
-  box-shadow: 0 8px 28px rgba(43,122,191,0.18);
+  border-color: #522e12(43,122,191,0.9);
+  box-shadow: 0 8px 28px #2b1403(43,122,191,0.18);
 }
 
 /* focus accessibility */
@@ -1572,4 +1572,12 @@ body, header, footer, .card-noticia, .card-content, .noticia-destaque-imagem, .i
 
 [data-theme="dark"] .repo-section p {
     color: #bdc3c7;
+}
+/* EFEITO PARA OS BOTÕES - CORRIGIDO */
+header a {
+    transition: color 0.3s ease !important;
+}
+
+header a:hover {
+    color: #000000 !important;
 }
