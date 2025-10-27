@@ -213,7 +213,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">Além do <strong>reconhecimento regional</strong>, o título garante à Universidade São Lucas vagas nas competições estaduais e nacionais, consolidando ainda mais a tradição esportiva da instituição. A torcida estudantil foi peça fundamental, apoiando massivamente a equipe em todas as partidas e celebrando cada conquista.</p>
 
 <p style="margin-bottom: 25px;">Esta vitória no Inter Atlética reforça o <strong>compromisso institucional com o esporte universitário</strong>, promovendo valores como trabalho em equipe, disciplina e desenvolvimento integral dos alunos através da prática esportiva de alto rendimento.</p>`,   
-        categoria: ["esportes", "campeonatos"]
+        categoria: "esportes"
     },
     {
         id: 9, 
@@ -333,7 +333,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">A vitória do campeonato regional também garante à Universidade Digital Elite <strong>participação em competições estaduais e nacionais de e-sports</strong>, além de reforçar a tradição da instituição no cenário universitário de jogos eletrônicos.</p>
 
 <p style="margin-bottom: 25px;">O título conquistado pela Universidade Digital Elite no campeonato de League of Legends <strong>reafirma o crescimento dos e-sports no ambiente acadêmico</strong> e destaca o compromisso da universidade em apoiar atividades extracurriculares que desenvolvem habilidades estratégicas, trabalho em equipe e pensamento crítico nos estudantes.</p>`, 
-        categoria: ["outros", "campeonatos"]
+        categoria: "campeonatos"
     },
     {
         id: 14, 
@@ -357,7 +357,7 @@ const dados_noticias = [
 <p style="margin-bottom: 25px;">Além do reconhecimento regional, a vitória garante à Universidade Atlântica <strong>participação em competições nacionais</strong>, reforçando a tradição esportiva da instituição e incentivando a prática de esportes entre alunas de diferentes cursos.</p>
 
 <p style="margin-bottom: 25px;">O título conquistado pelo time feminino de vôlei da Universidade Atlântica no Interuniversidades Sul <strong>reforça o compromisso da instituição com o esporte</strong>, promovendo desenvolvimento físico, trabalho em equipe e valorização das atletas no ambiente acadêmico.</p>`,
-        categoria: ["esportes", "campeonatos"]
+        categoria: "esportes"
     },
     {
         id: 15, 

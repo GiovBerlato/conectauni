@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
-  // Config: altere para 'lateral' | 'full' | 'crop' conforme preferir
   const FEATURE_IMAGE_STYLE = 'crop'; // <-- mude aqui se quiser outra opção
 
   /* ===========================
@@ -26,10 +25,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const noticiasAbaixo = document.querySelector(".imagens-abaixo-lado-a-lado");
     if (!noticiasAcima || !noticiasAbaixo) return;
 
-    const noticia1 = dados_noticias.find(a => a.id === 1);
-    const noticia2 = dados_noticias.find(a => a.id === 2);
-    const noticia3 = dados_noticias.find(a => a.id === 3);
-    const noticia4 = dados_noticias.find(a => a.id === 4);
+    const noticia1 = dados_noticias.find(a => a.id === 2);
+    const noticia2 = dados_noticias.find(a => a.id === 3);
+    const noticia3 = dados_noticias.find(a => a.id === 4);
+    const noticia4 = dados_noticias.find(a => a.id === 5);
 
     function criarCardHTMLFrontPage(noticia, imgClass = 'img-esquerda') {
       const imgSrc = noticia.imagem && noticia.imagem.trim() ? noticia.imagem : 'Imagem_FrontPage/Imagem-teste.jpg';
@@ -142,7 +141,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // separador
     const hr = document.createElement('hr');
-    hr.style.cssText = 'margin: 30px auto; border: none; border-top: 4px solid #ffffff; border-radius: 2px; width: 950px;';
+    hr.style.cssText = 'margin: 30px auto; border: none; border-top: 4px solid #ffffff; border-radius: 2px; width: 90%; max-width: 950px;';
 
     wrapper.appendChild(hr);
 
