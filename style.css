@@ -815,7 +815,7 @@ html[data-theme="dark"] header {
 
 /* Menu off-screen em modo escuro */
 html[data-theme="dark"] .menu-off-screen {
-  background-color: #1e1f21;
+  background-color: #14161a;
   color: #e6eef6;
 }
 
