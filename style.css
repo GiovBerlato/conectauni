@@ -767,16 +767,16 @@ img {
 
     .container-introducao {
         flex-direction: column;
-        padding: 1.5rem;
+        padding: 0;
         margin-left: 0.5rem;
         margin-right: 0.5rem;
         max-height: none;
+        gap: 0;
     }
 
     .introducao-titulo {
         width: 100%;
         padding: 1.5rem;
-        padding-right: 1.5rem;
     }
 
     .introducao-titulo p {
@@ -786,10 +786,17 @@ img {
     #introducao-img {
         width: 100%;
         margin-top: 0;
+        flex: auto;
+        height: 300px;
     }
 
     #introducao-img img {
-        border-radius: 10px; 
+        border-radius: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 }
 * {
@@ -1644,6 +1651,10 @@ body, header, footer, .card-noticia, .card-content, .noticia-destaque-imagem, .i
 
 [data-theme="dark"] .repo-btn:hover {
     background: #fff;
+}
+
+[data-theme="dark"] #introducao-img img {
+    filter: brightness(50%);
 }
 
 /* EFEITO PARA OS BOTÕES - CORRIGIDO */
