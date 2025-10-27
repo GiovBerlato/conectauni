@@ -143,6 +143,7 @@
         if (holder) holder.innerHTML = html;
         const footerEl = document.querySelector('footer');
         if (footerEl) footerEl.style.visibility = 'visible';
+        injectNoticiasRodape();
       })
       .catch(err => console.warn('Falha ao carregar rodape:', err));
   }
@@ -205,7 +206,6 @@
     const inicio = (pagina - 1) * noticiasPorPagina;
     const fim = inicio + noticiasPorPagina;
     console.log(`Carregando notícias da página ${pagina}: itens ${inicio} a ${fim}`);
-    // aqui você chamaria renderizarNoticias(...) com filtro
   }
 
   /* -------------------------
@@ -226,13 +226,55 @@
     }, 60);
   });
 
-  // expose pagination function globally (para onclicks inline se você usar)
   window.mudarPagina = function(numero) {
-    // this function assumes it's called from an event handler element
-    // fallback: try to detect the clicked .pagina element
     const ev = window.event;
     mudarPaginaEvento(ev, numero);
   };
 
   window.carregarNoticiasPagina = carregarNoticiasPagina;
+
+
+  //injetar noticias no rodape
+  function criarCardRodape(noticia) {
+    if (!noticia) return '';
+
+    const linkNoticia = `templateNoticia.html?id=${encodeURIComponent(noticia.id)}`;
+    const altText = noticia.titulo || 'Imagem da notícia';
+    const imgSrc = (noticia.imagem && noticia.imagem.trim()) ? noticia.imagem.trim() : 'Imagem_FrontPage/Imagem-teste.jpg';
+    const data = noticia.data || '';
+    const titulo = noticia.titulo || 'Notícia sem título';
+
+    return `
+      <a href="${linkNoticia}" class="rodape-noticia-item">
+          <img src="${imgSrc}" alt="${altText}">
+          <div class="rodape-noticia-texto">
+              <strong>${titulo}</strong>
+              <span>${data}</span>
+          </div>
+      </a>
+    `;
+  }
+
+/**
+ * Injeta as notícias selecionadas no rodapé.
+ */
+  function injectNoticiasRodape() {
+    const colunaNoticias = document.querySelector(".rodape-noticias");
+
+    if (colunaNoticias && typeof dados_noticias !== 'undefined') {
+      const noticia1 = dados_noticias.find(noticia => noticia.id == 1);
+      const noticia2 = dados_noticias.find(noticia => noticia.id == 11);
+
+      let htmlParaInjetar = '';
+      if (noticia1) {
+        htmlParaInjetar += criarCardRodape(noticia1);
+      }
+      if (noticia2) {
+        htmlParaInjetar += criarCardRodape(noticia2);
+      }
+      colunaNoticias.innerHTML += htmlParaInjetar;
+    } else if (!colunaNoticias) {
+        console.warn('Injetor Rodapé: Seletor ".rodape-noticias" não foi encontrado.');
+    }
+  }
 })();

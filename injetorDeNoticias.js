@@ -181,5 +181,4 @@ document.addEventListener("DOMContentLoaded", () => {
       noticias_grid.innerHTML += cardHTMLPagNoticias;
     }
   })();
-
 });
