@@ -149,7 +149,7 @@ ul {
     display: flex;
     flex-direction: column;
     transition: .3s ease;
-    z-index: 100;
+    z-index: 10000000000;
 }
 
 /* Itens do menu lateral */
@@ -359,13 +359,13 @@ img {
     width: 100%;
 }
 
-.container {
+.container, .faleconosco-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-.main-title {
+.main-title, .faleconosco-titulo {
     text-align: center;
     font-size: 3rem;
     font-weight: bold;
@@ -550,6 +550,64 @@ img {
     margin: 20px auto 0 auto;
     overflow-wrap: break-word;
     color: rgb(0, 0, 0);
+}
+
+.faleconosco-formulario {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faleconosco-formulario form {
+    width: clamp(250px, 40rem, 60vw);
+    font-size: 1.5rem;
+    border: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.faleconosco-formulario form label {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    border: white;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.faleconosco-formulario form input {
+    padding: 1rem;
+    font-size: 1rem;
+    height: 2rem;
+    border: white;
+    border-radius: 100px;
+}
+
+.faleconosco-formulario form select {
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: Lato, sans-serif;
+    border: white;
+    border-radius: 100px;
+}
+
+.faleconosco-formulario form textarea {
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: Lato, sans-serif;
+    border-radius: 10px;
+    border: none;
+    resize: vertical;
+    margin-bottom: 20px;
+}
+
+.faleconosco-formulario form input:is(:last-child) {
+    padding: 0;
+    align-self: center;
+    width: 10rem;
+    margin-bottom: 30px;
 }
 
 #rodape-placeholder {
@@ -834,7 +892,8 @@ html[data-theme="dark"] #titulo-limitado {
     color: #fff;
 }
 
-html[data-theme="dark"] .main-title {
+html[data-theme="dark"] .main-title,
+html[data-theme="dark"] .faleconosco-titulo {
     color: #fff;
     border-bottom: 3px solid #fff;
 }
@@ -922,7 +981,7 @@ html, body,
 header, footer,
 .card-noticia, .card, .box,
 #titulo-limitado, .card-titulo, .card-descricao,
-a, .card-link, .main-title, #noticia-corpo, #caixa_de_texto_imagem {
+a, .card-link, #noticia-corpo, #caixa_de_texto_imagem {
   transition: color 240ms ease, background-color 240ms ease, border-color 220ms ease, box-shadow 240ms ease, filter 240ms ease;
   will-change: color, background-color, box-shadow, filter;
 }
@@ -1545,6 +1604,7 @@ body, header, footer, .card-noticia, .card-content, .noticia-destaque-imagem, .i
 /* Modo escuro */
 [data-theme="dark"] .sobre-section h2 {
     color: #ecf0f1;
+    border-left: 4px solid  #fff;
 }
 
 [data-theme="dark"] .sobre-section p {
@@ -1554,7 +1614,7 @@ body, header, footer, .card-noticia, .card-content, .noticia-destaque-imagem, .i
 [data-theme="dark"] .feature-card,
 [data-theme="dark"] .repo-section,
 [data-theme="dark"] .contact-info {
-    background: #2c3e50;
+    background: #272b32;
     border-color: #34495e;
 }
 
@@ -1564,7 +1624,7 @@ body, header, footer, .card-noticia, .card-content, .noticia-destaque-imagem, .i
 }
 
 [data-theme="dark"] .tech-tag {
-    background: #2980b9;
+    background: #272b32;
 }
 [data-theme="dark"] .tech-stack h3 {
     color: #ecf0f1;
@@ -1573,6 +1633,19 @@ body, header, footer, .card-noticia, .card-content, .noticia-destaque-imagem, .i
 [data-theme="dark"] .repo-section p {
     color: #bdc3c7;
 }
+
+[data-theme="dark"] .linkedin-btn-simple {
+    background: #272b32;
+}
+
+[data-theme="dark"] .repo-btn {
+    background: #000;
+}
+
+[data-theme="dark"] .repo-btn:hover {
+    background: #fff;
+}
+
 /* EFEITO PARA OS BOTÕES - CORRIGIDO */
 header a {
     transition: color 0.3s ease !important;
