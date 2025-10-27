@@ -277,6 +277,7 @@ img {
     max-width: 900px;
     margin: 1rem auto 0 auto;
     color: grey;
+    text-align: center;
 }
 
 /* Imagens das notícias lado a lado */
