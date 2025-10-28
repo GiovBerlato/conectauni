@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
-  const FEATURE_IMAGE_STYLE = 'crop'; // <-- mude aqui se quiser outra opção
+  const FEATURE_IMAGE_STYLE = 'crop';
 
   /* ===========================
      1) FRONT PAGE — Cards principais (topo / abaixo)

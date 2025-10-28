@@ -3,9 +3,6 @@
   const root = document.documentElement;
   const reducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  /* -------------------------
-     Theme helpers
-     ------------------------- */
   function applyTheme(theme) {
     if (theme === 'dark') root.setAttribute('data-theme', 'dark');
     else root.removeAttribute('data-theme');
@@ -24,9 +21,6 @@
     btn.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
   }
 
-  /* -------------------------
-     Fade sequence (clean)
-     ------------------------- */
   function fadeAndApply(nextTheme) {
     if (reducedMotion) {
       applyTheme(nextTheme);
@@ -49,17 +43,12 @@
     }, FADE_IN_MS);
   }
 
-  /* -------------------------
-     Ensure theme button exists and attach listener
-     ------------------------- */
   function ensureThemeButtonAndBind() {
     const header = document.querySelector('header') || document.querySelector('.site-header');
     let btn = document.getElementById('theme-toggle');
 
-    // prefer button inside injected header
     if (!btn && header) btn = header.querySelector('#theme-toggle');
 
-    // create fallback if not present
     if (!btn) {
       btn = document.createElement('button');
       btn.id = 'theme-toggle';
@@ -148,9 +137,6 @@
       .catch(err => console.warn('Falha ao carregar rodape:', err));
   }
 
-  /* -------------------------
-     Intro typing (mantive sua lógica, com proteção)
-     ------------------------- */
   function setupIntroTyping() {
     window.addEventListener('load', function () {
       const boxtitulo = document.querySelector(".introducao-titulo h1");

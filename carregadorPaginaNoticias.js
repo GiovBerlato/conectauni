@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById('noticia-corpo').innerHTML = noticia.conteudo;
     }
 
-    // 5. ÁUDIO COM LEGENDA (SUBSTITUA esta parte)
+    // 5. ÁUDIO COM LEGENDA
 const audioElement = document.getElementById('noticia-audio');
 const audioSecao = document.getElementById('audio-secao');
 
